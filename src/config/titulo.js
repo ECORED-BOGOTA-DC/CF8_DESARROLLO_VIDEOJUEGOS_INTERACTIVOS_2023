@@ -1,0 +1,1 @@
+module.exports = 'Programación orientada a objetos'

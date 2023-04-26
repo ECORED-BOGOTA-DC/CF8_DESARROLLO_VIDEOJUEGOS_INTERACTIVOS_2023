@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="295" height="191" viewBox="0 0 295 191">
+  <g id="Grupo_895077" data-name="Grupo 895077" transform="translate(-1000 -14447.95)">
+    <rect id="Rectángulo_343280" data-name="Rectángulo 343280" width="295" height="191" transform="translate(1000 14447.95)" fill="#fff"/>
+    <text id="private_void_limpiar_txtA._clear_txtB._clear_txttotal._clear_" data-name="private void limpiar ()
+{
+         txtA. clear ();
+         txtB. clear () ;
+         txttotal. clear ();
+}" transform="translate(1063 14472.95)" fill="red" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="17">private void </tspan><tspan y="17" fill="#12263f">limpiar ()</tspan><tspan fill="#12263f"><tspan x="0" y="41">{</tspan><tspan x="0" y="65" xml:space="preserve">         </tspan><tspan y="65" fill="red">txt</tspan><tspan y="65">A. clear ();</tspan><tspan x="0" y="89" xml:space="preserve">         </tspan><tspan y="89" fill="red">txt</tspan><tspan y="89">B. clear () ;</tspan><tspan x="0" y="113" xml:space="preserve">       </tspan><tspan y="113" xml:space="preserve" fill="red">  txt</tspan><tspan y="113">total. clear ();</tspan><tspan x="0" y="137">}</tspan></tspan></text>
+  </g>
+</svg>

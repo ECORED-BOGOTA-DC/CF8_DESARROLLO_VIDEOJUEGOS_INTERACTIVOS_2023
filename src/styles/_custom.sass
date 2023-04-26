@@ -1,0 +1,45 @@
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 50%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 51%
+    right: 30%
+
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
+.banner-principal
+  .banner-principal__row
+    .banner-principal__info
+      .banner-principal__componente h1, .banner-principal__descripcion p
+        color: #000000
+
+.bloque-texto-b.color-secundario
+  &::before
+    background-color: #F1EFFE
+.tabla-b
+  border: 1px solid #AFAFAF
+  td
+    text-align: center
+    width: 50%
+    &:first-child
+      border-right: 1px solid #AFAFAF
+.modal-edit-1
+  .modal-a__content
+    background-color: #DFF5FA !important
+.conatiner-left-right
+  margin-right: -3rem
+  margin-left: -3rem
+  padding-left: 3rem
+  padding-right: 3rem
+    
