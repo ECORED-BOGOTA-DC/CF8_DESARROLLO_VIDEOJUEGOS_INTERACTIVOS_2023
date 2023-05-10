@@ -31,7 +31,7 @@
 
     .titulo-segundo.color-acento-contenido
       h2#t_1_1 1.1 Metodologías ágiles
-    p.mb-5(data-aos="fade-right") Como se mencionó anteriormene, las metodologías ágiles surgieron de la necesidad de proporcionar respuestas rápidas a los requerimientos de los proyectos, manteniendo flexibilidad frente a los cambios que puedan surgir o se puedan generar durante el proceso de desarrollo.
+    p.mb-5(data-aos="fade-right") Como se mencionó anteriormente, las metodologías ágiles surgieron de la necesidad de proporcionar respuestas rápidas a los requerimientos de los proyectos, manteniendo flexibilidad frente a los cambios que puedan surgir o se puedan generar durante el proceso de desarrollo.
 
     .d-flex.flex-wrap.mb-5
       img.col-lg-6.mx-auto.mb-auto(src="@/assets/curso/temas/tema1/img-4.jpg" style="max-width: 610px;" data-aos="fade-right")
@@ -91,7 +91,7 @@
         style="right: 0; left: auto;"
       )
       .bloque-texto-g__texto.p-4.me-auto(data-aos="fade-right")
-        p.mb-0 Debido a los diferentes procedimientos que se utilizaban para llevar a cabo los proyectos de <em>software</em> y con el afán de unificarlos en un conjunto de buenas prácticas que se pudieran aplicar en los procesos de desarrollo, en el 2001 se creó la organización <em>Agile Alliance</em>; cuyo principal objetivo fue definir un conjunto de principios bajo los cuales se pueda trabajar de manera ágil y con calidad en cualquier entorno.
+        p.mb-0 Debido a los diferentes procedimientos que se utilizaban para llevar a cabo los proyectos de software y con el afán de unificarlos en un conjunto de buenas prácticas que se pudieran aplicar en los procesos de desarrollo, en el 2001 se creó la organización <em>Agile Alliance</em>; cuyo principal objetivo fue definir un conjunto de principios bajo los cuales se pueda trabajar de manera ágil y con calidad en cualquier entorno.
     p.mb-5(data-aos="fade-right") Dichos principios fueron acuñados con el nombre de <em>“Manifiesto agile”</em> y su fundamento se halla en valores que promueven una cultura basada en la aceptación y adaptación a los cambios que sean necesarios para el progreso de una organización. Los valores mencionados priorizan:
 
     ol.lista-ol--cuadro.lista-ol--separador.col-xl-8.mx-auto.mb-5
@@ -116,7 +116,7 @@
 
     img.mb-5.mx-auto(src="@/assets/curso/temas/tema1/img-6.jpg" style="max-width: 610px" data-aos="fade")
 
-    p.mb-5(data-aos="fade-right") Para complementar el tema se recomienda realizar las lecturas <b>Gestión Ágil de proyectos y Manifiesto por el Desarrollo Ágil de <em>Software</em></b>, que se encuentran en el material complementario.
+    p.mb-5(data-aos="fade-right") Para complementar el tema se recomienda realizar las lecturas <b>Gestión Ágil de proyectos y Manifiesto por el Desarrollo Ágil de Software</b>, que se encuentran en el material complementario.
 
     .row
       .col-auto.mx-auto(data-aos="fade-right")
@@ -162,13 +162,13 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_1_2 1.2 Metodología <em>SCRUM</em>
+      h2#t_1_2 1.2 Metodología SCRUM
     
-    p.mb-5(data-aos="fade-right") <em>SCRUM</em> es una de las metodologías ágiles que determinan un marco de trabajo mediante el cual se pueden enfocar problemáticas y adaptar soluciones para entregar productos de la máxima calidad y valor posibles. Se basa en el control de procesos en el desarrollo de productos y se puede llevar a cabo en tres ciclos; pre game, game y pos game basado en los conocimiento y la experiencia de las personas que participan en ellos.
+    p.mb-5(data-aos="fade-right") SCRUM es una de las metodologías ágiles que determinan un marco de trabajo mediante el cual se pueden enfocar problemáticas y adaptar soluciones para entregar productos de la máxima calidad y valor posibles. Se basa en el control de procesos en el desarrollo de productos y se puede llevar a cabo en tres ciclos; pre game, game y pos game basado en los conocimientos y la experiencia de las personas que participan en ellos.
 
     .d-flex.flex-wrap.align-items-center.mb-5
       img(src="@/assets/curso/temas/decorador-titulo.svg" style="max-width: 40px; max-height: 40px;")
-      h3.mb-0.ps-3 Pregame
+      h3.mb-0.ps-3 <em>Pregame</em>
     
     p.mb-5 Se realiza una lista ordenada de lo que es necesario para el desarrollo del producto y es la fuente de requisitos para la realización de los cambios, ya que se puede variar a medida que avanza el proceso y es ordenada porque se va desarrollando de acuerdo con las prioridades establecidas. Cada elemento de la lista contiene la visión del usuario sobre las funcionalidades que espera encontrar en el producto.
 
@@ -177,7 +177,7 @@
 
     .d-flex.flex-wrap.align-items-center.mb-5
       img(src="@/assets/curso/temas/decorador-titulo.svg" style="max-width: 40px; max-height: 40px;")
-      h3.mb-0.ps-3 Game
+      h3.mb-0.ps-3 <em>Game</em>
     
     p.mb-5(data-aos="fade-right") En este ciclo se desarrolla la lista de requisitos que se priorizan a través de una planificación; se realiza la lista de las tareas por llevar a cabo (iteraciones); se determina el tiempo de las iteraciones que es aproximadamente de una semana (1) por actividad hasta completar un máximo de cuatro (4) por iteración, es decir, 30 días y el equipo se organizan en parejas o en las personas que sean necesarias para completarla. Los miembros del equipo se auto organizan y establecen sus propios objetivos de acuerdo con el producto que debe entregar al finalizar la iteración, ver figura 1.
 
@@ -185,7 +185,7 @@
     .col-xl-6.col-lg-10.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
         h5 Figura 1.
-        span <em>Ciclo game</em> - Proceso realizado en cada iteración del producto
+        span Ciclo <em>game</em> - Proceso realizado en cada iteración del producto
       img(src="@/assets/curso/temas/tema1/img-7.svg" data-aos="fade-left")
     
     p.mb-5 Después de <b>planificar la iteración</b> que algunos autores como Sánchez (2018) llaman Sprint, se comienza a <b>ejecutar cada tarea de la iteración:</b>
@@ -208,13 +208,13 @@
       .row
         p.text-start(data-aos="fade-right") De acuerdo con las respuestas proporcionadas por los integrantes del equipo, el SCRUM manager (gestionador del proyecto) debe encargarse de hacer la inspección de los obstáculos y hacer las adaptaciones necesarias para eliminarlos, garantizando que el equipo pueda realizar las actividades para terminar la iteración.
       .row
-        p.text-start(data-aos="fade-left") Después de cada superación de obstáculos y para terminar la iteración se hace una revisión del producto con lo cual se verifica el cumplimiento de los requisitos.Finalmente el día que se tiene previsto terminar la iteración, se hace nuevamente una reunión de 1 o 2 horas con el cliente para realizar una demostración del cumplimiento de los requisitos plasmados en el producto incremental, resultado de la iteración completada.
+        p.text-start(data-aos="fade-left") Después de cada superación de obstáculos y para terminar la iteración se hace una revisión del producto con lo cual se verifica el cumplimiento de los requisitos. Finalmente el día que se tiene previsto terminar la iteración, se hace nuevamente una reunión de 1 o 2 horas con el cliente para realizar una demostración del cumplimiento de los requisitos plasmados en el producto incremental, resultado de la iteración completada.
       .row
         p.text-start(data-aos="fade-right") De acuerdo con las observaciones recibidas por el cliente se inspeccionan de nuevo los obstáculos que impiden la optimización del producto obtenido y se hacen las adaptaciones necesarias. El SCRUM manager junto con el equipo realiza una <b>retrospectiva</b> del trabajo para identificar en que se puede mejorar la metodología y las técnicas utilizadas para incrementar la productividad.
     
     .d-flex.flex-wrap.align-items-center.mb-5
       img(src="@/assets/curso/temas/decorador-titulo.svg" style="max-width: 40px; max-height: 40px;")
-      h3.mb-0.ps-3 Post game
+      h3.mb-0.ps-3 <em>Post game</em>
 
     p.mb-5(data-aos="fade-right") Corresponde al cierre del proyecto dado que se han llevado a cabo todas las iteraciones que lo han perfeccionado para que el cliente quede a satisfacción con las funciones que esperaba. Entonces se prepara el producto para ser liberado haciendo la verificación de las versiones anteriores que se tengan de este, las cuales deben ser almacenadas en repositorios o carpetas para tener un control de versiones.
       br
@@ -229,16 +229,15 @@
       .tarjeta.p-3(x="15.5%" y="75%" numero="" style="background-color: #DFF5FA")
         p Es el responsable de entregar un producto de calidad al cliente como resultado del trabajo del resto del equipo. Es el encargado de gestionar la lista de requisitos al seleccionarlos y priorizarlos, también se asegura de que todos los miembros tengan claridad sobre ellos.
       .tarjeta.p-3(x="46.5%" y="75%" numero="" style="background-color: #DFF5FA")
-        p Es el equipo encargado de ejecutar las tareas de cada iteración para entregar un incremento del producto de acuerdo con las especificaciones entregadas por el <em>Product Owner</em>. Organizan y gestionan su propio trabajo y están conformados por el número de personas necesarias para lograr el cumplimiento de los objetivos trazados.
-      .tarjeta.p-3(x="74.5%" y="75%" numero="" style="background-color: #DFF5FA")
         p Ayuda a entender a todos los miembros del equipo sobre las reglas y valores en la realización del trabajo. Se asegura que haya claridad sobre los objetivos y el alcance del producto a desarrollar e igualmente orienta sobre como aplicar creatividad, auto organizarse como equipo y eliminar los impedimentos para maximizar la productividad.
+      .tarjeta.p-3(x="74.5%" y="75%" numero="" style="background-color: #DFF5FA")
+        p Es el equipo encargado de ejecutar las tareas de cada iteración para entregar un incremento del producto de acuerdo con las especificaciones entregadas por el <em>Product Owner</em>. Organizan y gestionan su propio trabajo y están conformados por el número de personas necesarias para lograr el cumplimiento de los objetivos trazados.
     p Para complementar el tema, se recomienda realizar la lectura <b>Metodología Scrum</b>, la cual e encuentra en el material complementario.
 
     Separador
 
-    .d-flex.flex-wrap.align-items-center.mb-5
-      img(src="@/assets/curso/temas/decorador-titulo.svg" style="max-width: 40px; max-height: 40px;")
-      h3.mb-0.ps-3 1.3 Metodología SUM
+    .titulo-segundo.color-acento-contenido
+      h2#t_1_3 1.3 Metodología SUM
     
     p.mb-5(data-aos="fade-right") Es un método ágil que se basa en SCRUM para el desarrollo de proyectos, es fácilmente combinable con otras metodologías ágiles por lo que es adaptable fácilmente al desarrollo de videojuegos ya que se pueden prever y administrar los riesgos, los recursos y así mismo los resultados obtenidos. Se destacan las siguientes características:
 
@@ -267,42 +266,36 @@
 
       .tarjeta.p-3(x="15%" y="9%" numero="" style="background-color: #DFF5FA")
         .col
-          p.fw-bold Concepto
           p En esta etapa el equipo de trabajo y el cliente proponen ideas que precisen el tipo de producto a desarrollar, se hacen bocetos para identificar las características que poseerá, se define el alcance y los objetivos, la forma de lograrlos y  los retos que se deben afrontar. 
             br
             br
             |Esta fase termina con un boceto o prototipo que resume el concepto del producto, que en el caso del videojuego contiene el nombre, la historia, el entorno y los personajes que harán parte de este.
       .tarjeta.p-3(x="15%" y="30%" numero="" style="background-color: #DFF5FA")
         .col
-          p.fw-bold Planificación
           p Tiene que ver con la preparación de las actividades que se deben llevar a cabo para la ejecución del proyecto. La planificación administrativa se encarga de organizar todos los aspectos para el cumplimiento de los objetivos del proyecto como el equipo de desarrollo, el cronograma y el presupuesto.
             br
             br
             |Las especificaciones del proyecto, que este caso es el desarrollo de un videojuego, es la definición de todos los requisitos y funcionalidades que tendrá al igual que su priorización.
       .tarjeta.p-3(x="15%" y="50%" numero="" style="background-color: #DFF5FA")
         .col
-          p.fw-bold Elaboración
           p En esta etapa se refinan los requisitos seleccionándolos y priorizándolos de nuevo para comenzar con el desarrollo de la iteración; se monitorea el cumpliendo de los objetivos de la iteración aplicando técnicas de evaluación definidas con anterioridad. 
             br
             br
             |Para cerrar la iteración se le muestra al cliente lo obtenido, se da por culminada la iteración y se planifica la siguiente.
       .tarjeta.p-3(x="15%" y="70%" numero="" style="background-color: #DFF5FA")
         .col
-          p.fw-bold Beta
           p Antes de liberar la versión del producto se verifican la totalidad de sus funcionalidades, se hace un reporte de los ajustes que se deben realizar para dejarlo a punto, se ejecutan los cambios y posteriormente se hace la publicación y distribución.
       .tarjeta.p-3(x="15%" y="90%" numero="" style="background-color: #DFF5FA")
         .col
-          p.fw-bold Cierre
           p En esta fase se libera la versión del producto que ha sido ajustada de acuerdo con las verificaciones y se hace una evaluación de lo sucedido durante el desarrollo, teniendo en cuenta las dificultades presentadas y los logros alcanzados para documentar las lecciones aprendidas y mejorar la productividad del equipo.
       .tarjeta.p-3(x="93.5%" y="50%" numero="" style="background-color: #DFF5FA")
         .col
-          p.fw-bold Gestión de riesgos
           p Se identifican y describen los riesgos a los que se ve expuesto el proyecto, determinando su probabilidad de ocurrencia y el impacto que tienen en el desarrollo del producto, determinando las estrategias que se pueden aplicar para mitigarlos y elaborando un plan de contingencia para saber cómo actuar en caso de que el riesgo ocurra.
 
 
     p.mb-5(data-aos="fade-right") Se pueden distinguir los siguientes roles:
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5(columnas="col-12 col-lg-6 col-xl-4")
       .tarjeta.p-4(style="background-color: #C0EBF6")
         .row.justify-content-center.mb-3
           .col-8
@@ -333,9 +326,10 @@
 </template>
 
 <script>
+import SlyderF from '../components/SlyderF.vue'
 export default {
   name: 'Tema1',
-  components: {},
+  components: { SlyderF },
   data: () => ({
     modal1: false,
   }),

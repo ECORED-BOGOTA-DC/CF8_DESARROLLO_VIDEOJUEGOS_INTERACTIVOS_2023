@@ -237,7 +237,7 @@ export default {
     {
       termino: 'Script',
       significado:
-        'Es un conjunto de instrucciones escritas en un lenguaje de programación siguiendo reglas de sintaxis para que se puedan traducir a lenguaje de máquina (gamedevtraum, 2021)',
+        'Es un conjunto de instrucciones escritas en un lenguaje de programación siguiendo reglas de sintaxis para que se puedan traducir a lenguaje de máquina (gamedevtraum, 2021).',
     },
     {
       termino: 'Scrum',

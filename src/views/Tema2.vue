@@ -21,19 +21,15 @@
 
     TabsA.color-acento-contenido.mb-5(data-aos="fade-left")
       .tarjeta.p-4(titulo="Abstracción" style="background-color: #DFF5FA")
-        h4 Abstracción
         p Consiste en abstraer o aislar las características o atributos esenciales que definen un objeto y que lo distinguen de los demás con el propósito de que las pueda usar otro objeto. Por ejemplo si el objeto es una puerta las características esenciales es que tenga un marco, bisagras y cerradura sin importar el tamaño, el color y el tipo de material entre otras.
       .tarjeta.p-4(titulo="Herencia" style="background-color: #DFF5FA")
-        h4 Herencia
-        p Al encapsulamiento de las características de un objeto se le llama clase; que esta conformada por un patrón de atributos que la hacen de orden superior o superclase porque tiene características generales, pero pueden surgir clases hijas o subclases que hereden estas características y se encuentren en orden inferior dentro de la jerarquía. 
+        p Al encapsulamiento de las características de un objeto se le llama clase; que está conformada por un patrón de atributos que la hacen de orden superior o superclase porque tiene características generales, pero pueden surgir clases hijas o subclases que hereden estas características y se encuentren en orden inferior dentro de la jerarquía. 
           br
           br
           |En el ejemplo de la puerta, las clases hijas que heredan las características son los tipos de puertas que pueden elaborarse como las correderas, plegables, pivotantes, de seguridad, entre otras.
       .tarjeta.p-4(titulo="Polimorfismo" style="background-color: #DFF5FA")
-        h4 Polimorfismo
-        p Consiste en definir un método con un conjunto de parámetros el cual puede ser aplicado en varios tipos de objetos. El método puede aumentar o disminuir los parámetros dependiendo del objeto al que se aplique. Por ejemplo el método se llama Open y es utilizado para abrir diferentes objetos como: puerta, cuenta bancaria, evento, historia clínica, entre otros. Dependiendo de lo que se abra, el proceso como tal, tiene mas o menos actividades por realizar.
-      .tarjeta.p-4(titulo="Pila de producto" style="background-color: #DFF5FA")
-        h4 Pila de producto
+        p Consiste en definir un método con un conjunto de parámetros el cual puede ser aplicado en varios tipos de objetos. El método puede aumentar o disminuir los parámetros dependiendo del objeto al que se aplique. Por ejemplo el método se llama Open y es utilizado para abrir diferentes objetos como: puerta, cuenta bancaria, evento, historia clínica, entre otros. Dependiendo de lo que se abra, el proceso como tal, tiene más o menos actividades por realizar.
+      .tarjeta.p-4(titulo="Encapsulamiento" style="background-color: #DFF5FA")
         p Es el conjunto de características esenciales que han sido separadas de las no esenciales. En el ejemplo de la puerta en el encapsulamiento se encuentra el marco, las bisagras y la cerradura ya que son los atributos principales o generales que hacen que el objeto sea definido como puerta, los demás atributos como el color, el material y el tamaño, hacen parte lo que se consideran características, pues estos son atributos que pueden poseer innumerables tipos de objetos.
 
     p.mb-5(data-aos="fade-right") El lenguaje de programación que se utiliza en Unity para generar las líneas de código o Scripts es C#; el cual se compone de variables, funciones y clases que se explicarán más adelante. Para escribir el código, Unity tiene un editor de texto asociado llamado Visual Studio, aunque el programador puede utilizar simplemente el bloc de notas. El editor (Visual Studio) le ayuda a determinar los errores de sintaxis que se puedan cometer en el desarrollo, por esa razón es recomendable hacer uso de este.   
@@ -50,7 +46,7 @@
               h3.mb-3 Fundamentos de programación: algoritmos, estructura de datos y objetos
               p.text-small Consultar en la base de datos SENA, ingresando su usuario y contraseña.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=10409" target="_blank")
                 span.pe-2 Enlace web
                 img(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px")
 
@@ -166,7 +162,7 @@
       br
       br
       |En la historia <b>“La isla de los tesoros escondidos”</b>, se debe diseñar un algoritmo de búsqueda para encontrar el primer tesoro de cinco (5), el jugador pasará al siguiente nivel solo si lo ha encontrado y podrá terminar la primera fase del juego:
-
+    h4.col-xl-10.mx-auto.mb-4 Pseudocódigo
     ol.lista-ol--cuadro.lista-ol--separador.col-xl-10.mx-auto.mb-5
       li 
         .lista-ol--cuadro__vineta(data-aos="fade-right")
@@ -205,13 +201,12 @@
     p.mb-5(data-aos="fade-right") Debido a que el diseño del algoritmo representado en forma de pseudocódigo o diagrama de flujo, no es comprensible por ningún ordenador que vaya a procesar las instrucciones, estas se deben traducir a un lenguaje entendible. Entonces:
     
     .cajon.color-primario.p-4.mb-5.col-lg-10.mx-auto(style="background-color: #C0EBF6")
-      p(data-aos="fade-right") Un programa es la codificación de las instrucciones de un algoritmo en un lenguaje de programación, con una sintaxis correcta para que pueda ser interpretado por el ordenador.
+      p(data-aos="fade-right") Un <b>programa</b> es la codificación de las instrucciones de un algoritmo en un lenguaje de programación, con una sintaxis correcta para que pueda ser interpretado por el ordenador.
     
-    p.mb-5(data-aos="fade-right") La sintaxis correcta se refiere a que cada lenguaje de programación tiene ciertas reglas semánticas que se deben respetarse para que en el momento de ser procesadas por la computadora no se generen errores que impidan lograr los resultados esperados. Al proceso de escribir las líneas de código del programa se le denomina programación y las personas que se dedican a esta labor se les denomina programadores.
+    p.mb-5(data-aos="fade-right") La sintaxis correcta se refiere a que cada lenguaje de programación tiene ciertas reglas semánticas que se deben respetarse para que en el momento de ser procesadas por la computadora no se generen errores que impidan lograr los resultados esperados. Al proceso de escribir las líneas de código del programa se le denomina <b>programación</b> y las personas que se dedican a esta labor se les denomina <b>programadores</b>.
 
     TabsA.color-acento-contenido.mb-5(data-aos="fade-left")
-      .tarjeta.p-4(titulo="Características de un lenguaje de programación" style="background-color: #DFF5FA")
-        h4 Características de un lenguaje de programación
+      .tarjeta.p-4(titulo="Características de un <br> lenguaje de programación" style="background-color: #DFF5FA")
         p • Poseen reglas de sintaxis y semántica que se debe seguir al pie de la letra para que pueda ser interpretado por la computadora.
           br
           br
@@ -220,7 +215,6 @@
           br
           |• Deben ser traducidos a un lenguaje que entienda el ordenador para que se conviertan en lenguajes ejecutables. 
       .tarjeta.p-4(titulo="Tipos de programas" style="background-color: #DFF5FA")
-        h4 Tipos de programas
         p  Pueden ser de dos tipos:
           br
           br
@@ -236,25 +230,16 @@
           img(src='@/assets/curso/temas/tema2/img-8.svg')
 
       .tarjeta.p-3(x="11.5%" y="20%" numero="+" style="background-color: #DFF5FA")
-        h6 Diseño del algoritmo
         p.mb-0 Es la escritura ordenada y lógica de las instrucciones que se deben llevar a cabo para resolver un problema o situación determinada, representado en forma de pseudocódigo o de diagrama de flujo.
       .tarjeta.p-3(x="11.5%" y="57%" numero="+" style="background-color: #DFF5FA")
-        h6 Elaboración del programa fuente
         p Codificación del algoritmo a través de un editor de código que sirve para escribir las instrucciones del algoritmo en un lenguaje de programación de alto nivel, llamado programa fuente.
       .tarjeta.p-3(x="11.5%" y="95%" numero="+" style="background-color: #DFF5FA")
-        h6 Compilación del programa
         p Al programa fuente se aplica la opción de compilar del editor de código utilizado, para que el ordenador a través de un lenguaje intérprete (interno en la máquina) lo convierta en un programa objeto que puede entender la máquina.
       .tarjeta.p-3(x="50%" y="20%" numero="+" style="background-color: #DFF5FA")
-        h6 Entrega del programa ejecutable
         p Es el programa que resulta de enlazar todas las funciones para convertir el programa objeto en un programa que la computadora pueda ejecutar.
       .tarjeta.p-3(x="50%" y="95%" numero="+" style="background-color: #DFF5FA")
-        h6 Entrega del programa objeto
         p Es el programa que se obtiene producto del proceso de compilación que ha realizado la máquina. Si el programa fuente llega a tener algún error de sintaxis cometido por el programador, el compilador entrega los errores generados para que sean corregidos y se vuelva a realizar la compilación.
-          br
-          br
-          |Nota. Proceso llevado a cabo paa que un programa desarrollado sea ejecutado por el ordenador. Elaboración Propia(2021).
       .tarjeta.p-3(x="89%" y="20%" numero="+" style="background-color: #DFF5FA")
-        h6 Ejecución del programa
         p El programa está listo para ser ejecutado por el ordenador y producir  los resultados que se esperan de este.
     Separador
 
@@ -299,7 +284,7 @@
         tr
           td(style="width: 20%")
             img.mx-auto(src='@/assets/curso/temas/tema2/t-7.svg' style="max-width: 97px")
-          td.text-start Conector que enlaza dos parte de un diagrama de flujo donde sus partes se encuentra en páginas diferentes.
+          td.text-start Conector que enlaza dos partes de un diagrama de flujo donde sus partes se encuentra en páginas diferentes.
         tr
           td(style="width: 20%")
             img.mx-auto(src='@/assets/curso/temas/tema2/t-8.svg' style="max-width: 138px")
@@ -371,19 +356,13 @@
       img(src="@/assets/curso/temas/tema2/img-9.svg" data-aos="fade-left")
 
     .cajon.color-primario.p-4.mb-5.col-lg-10.mx-auto(style="background-color: #C0EBF6")
-      p(data-aos="fade-right") Un programa es la codificación de las instrucciones de un algoritmo en un lenguaje de programación, con una sintaxis correcta para que pueda ser interpretado por el ordenador.
-
-    p.mb-5(data-aos="fade-right") <b>Ejemplo</b>
-      br
-      br
-      |En la siguiente figura se observa el diagrama de flujo del ejemplo de la historia <b>“La isla de los tesoros escondidos”</b>, en la cual se había elaborado un algoritmo con la técnica de Pseudocódigo.  En este diagrama, ver figura 2, se ilustra la actividad que se le ha propuesto llevar a cabo al jugador.
+      p(data-aos="fade-right") Este flujo de tareas a realizar es apenas una parte muy pequeña del juego y se puede continuar agregando tareas de acuerdo con las mecánicas definidas, para lo cual se sigue agrandando el diagrama que posteriormente se codificará.
 
     .row.mb-5
       .col-auto.mx-auto(data-aos="fade-left")
         a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
           span Vamos a practicar
           img.ms-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 27px")
-          .indicador--click(v-if="mostrarIndicador")
     
     ModalA.modal-edit-1(:abrir-modal.sync="modal1")
       .row.align-items-center.col-lg-10.mx-auto.mb-4
@@ -411,7 +390,7 @@
               h3.mb-3 Diseño y construcción de algoritmos
               p.text-small Consultar en la base de datos SENA, ingresando su usuario y contraseña.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=6425" target="_blank")
                 span.pe-2 Enlace web
                 img(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px")
     Separador
@@ -435,10 +414,10 @@
           p.col-lg-10.mx-auto Representados por valores enteros o valores reales que incorporan el signo, por ejemplo el valor -5 corresponde a un número entero con signo negativo y 4,5 corresponde a un valor real con un solo decimal y sin signo.
       .row(titulo="Lógicos")
         .mb-4.mb-md-0
-          p.col-lg-10.mx-auto Son tipos de datos que representa uno de dos valores “ falso” o “ verdadero”, utilizados en los algoritmos cuando se diseñan instrucciones en las cuales se debe cumplir una condición para la toma de una decisión; por ejemplo la condición es encontrar el tesoro; si la respuesta es verdadera puede continuar al siguiente nivel y si es falsa debe seguir buscando.
+          p.col-lg-10.mx-auto Son tipos de datos que representa uno de dos valores “falso” o “verdadero”, utilizados en los algoritmos cuando se diseñan instrucciones en las cuales se debe cumplir una condición para la toma de una decisión; por ejemplo la condición es encontrar el tesoro; si la respuesta es verdadera puede continuar al siguiente nivel y si es falsa debe seguir buscando.
       .row(titulo="Alfanumérico")
         .mb-4.mb-md-0
-          p.col-lg-10.mx-auto Son datos representados por caracteres diferentes a los números puros o a los lógicos; pues estos pueden contener letras con números y símbolos especiales como guion (-),asterisco (*), símbolo de número (#), entre otros.
+          p.col-lg-10.mx-auto Son datos representados por caracteres diferentes a los números puros o a los lógicos; pues estos pueden contener letras con números y símbolos especiales como guion (-), asterisco (*), símbolo de número (#), entre otros.
     
     .cajon.color-primario.p-4.mb-5.col-lg-10.mx-auto(style="background-color: #C0EBF6")
       p(data-aos="fade-left") Dentro de las líneas de código del programa se debe indicar el tipo de variable que se está creando; es decir qué tipo de valor almacenará;  a esto se le llama declarar una variable. Por ejemplo si la variable se declara tipo numérica, entonces no podrá contener caracteres.
@@ -476,7 +455,7 @@
           |En este caso se han definido unas variables en C#
           br
           br
-          |Las palabras marcadas en rojo son palabras que hacen parte de la sintaxis del lenguaje; bool indica que la variable A es de tipo lógico y que puede contener el valor de true o false y en este caso la viable se inicializó con “false”. La variable B es de tipo numérico que puede tomar valores enteros y se ha inicializado con el valor “80”.
+          |Las palabras marcadas en rojo son palabras que hacen parte de la sintaxis del lenguaje; bool indica que la variable A es de tipo lógico y que puede contener el valor de <em>true</em> o <em>false</em> y en este caso la viable se inicializó con “<em>false</em>”. La variable B es de tipo numérico que puede tomar valores enteros y se ha inicializado con el valor “80”.
         img(src="@/assets/curso/temas/tema2/img-11.svg" style="max-width: 190px" data-aos="fade-left")
     
     .d-flex.flex-wrap.align-items-center.mb-5
@@ -512,7 +491,7 @@
         br
         |<b>Limpiar (A y B): _________</b>
     
-    p.mb-5(data-aos="fade-right") En el lenguaje de programación C# el cual se utiliza en Unity para el desarrollo de los videojuegos, se distinguen los siguientes tipos de operadores:
+    p.mb-5(data-aos="fade-right") En el lenguaje de programación C# el cual se utiliza en Unity para el desarrollo de los videojuegos, se distinguen los siguientes <b>tipos de operadores</b>:
 
     TabsA.color-acento-contenido.mb-5(data-aos="fade-left")
       .tarjeta.p-4(titulo="Operadores de Asignación" style="background-color: #DFF5FA")
@@ -522,24 +501,24 @@
           |Se utilizan para asignar un nuevo valor a una variable que ha sido declarada dentro del programa. En la izquierda de la asignación se coloca el nombre de la variable y en la derecha el valor que se asigna. Ejemplo:
           br
           br
-          |<span style="color: red">string</span> logo;  ⇒ se ha declarado la variable logo de tipo texto
+          |<span style="color: red">string</span> logo;  ⇒ se ha declarado la variable logo de tipo texto.
           br
-          |<span style="color: red">int</span>      total;  ⇒ se ha declarado la variable total de tipo numérico
+          |<span style="color: red">int</span>      total;  ⇒ se ha declarado la variable total de tipo numérico.
           br
           br
-          |logo = ETR; ⇒ se ha asignado a la variable logo (izquierda)  el valor ETR (derecha)
+          |logo = ETR; ⇒ se ha asignado a la variable logo (izquierda)  el valor ETR (derecha).
           br
-          |total = 28;    ⇒ se  ha asignado a la variable total (izquierda)  el valor 28 (derecha)
-      .tarjeta.p-4(titulo="Operadores de Asignación" style="background-color: #DFF5FA")
+          |total = 28;    ⇒ se  ha asignado a la variable total (izquierda)  el valor 28 (derecha).
+      .tarjeta.p-4(titulo="Operadores Aritméticos" style="background-color: #DFF5FA")
         p.mb-0 <b>Operadores Aritméticos</b>
           br
           br
-          |Operadores aritméticos: están conformados por los símbolos que permiten hacer operaciones matemáticas con los números como suma (+), resta (-), multiplicación (*), división (/); modular (%); este último devuelve como resultado el residuo de una división. Ejemplo: 
+          |Están conformados por los símbolos que permiten hacer operaciones matemáticas con los números como suma (+), resta (-), multiplicación (*), división (/); modular (%); este último devuelve como resultado el residuo de una división. Ejemplo: 
           br
           br
           |<span style="color: red">Long</span> 	A; ⇒ se ha declarado la variable A de tipo entero almacenando números muy grandes, diferente a la tipo int que almacena números enteros muy pequeños.
           br
-          |<span style="color: red">Int</span> 	B; ⇒ se ha declarado la variable B de tipo entero
+          |<span style="color: red">Int</span> 	B; ⇒ se ha declarado la variable B de tipo entero.
           br
           |<span style="color: red">Double</span> C; ⇒ se ha declarado la variable C de tipo decimal albergando hasta quince números decimales después del punto. 
           br
@@ -549,16 +528,16 @@
           |B = 5 * 3;
           br
           |C = 3 / 2;
-      .tarjeta.p-4.d-flex.flex-wrap(titulo="Operadores de Asignación" style="background-color: #DFF5FA")
+      .tarjeta.p-4.d-flex.flex-wrap(titulo="Operadores Relacionales" style="background-color: #DFF5FA")
         .col-lg-7.order-2.order-lg-1
           p.fw-bold Operadores Relacionales
-          p estos operadores se utilizan para realizar la comparación entre dos valores donde el resultado es verdadero si la afirmación de la expresión comparada es correcta, de lo contrario el resultado es falso. Los símbolos para comparar las variables son:
+          p Estos operadores se utilizan para realizar la comparación entre dos valores donde el resultado es verdadero si la afirmación de la expresión comparada es correcta, de lo contrario el resultado es falso. Los símbolos para comparar las variables son:
           p Ejemplo:
             br
-            |<span style="color: red">bool</span> total;  ⇒ se ha declarado la variable total de tipo booleano es decir que solo puede tomar uno de dos valores; “verdadero” o “falso”
+            |<span style="color: red">bool</span> total;  ⇒ se ha declarado la variable total de tipo booleano es decir que solo puede tomar uno de dos valores; “verdadero” o “falso”.
             br
             br
-            |total = 8 > 9 ; ⇒ esto da como resultado falso (false)
+            |total = 8 > 9 ; ⇒ esto da como resultado falso (<em>false</em>).
         .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0.d-flex.ps-lg-3
           tabla.tabla-edit-2
             thead(style="border: 1px solid black")
@@ -591,48 +570,46 @@
                 td !=
                 td a != b
                 td a distinto que b
-      .tarjeta.p-4(titulo="Operadores de Asignación" style="background-color: #DFF5FA")
+      .tarjeta.p-4(titulo="Operadores Lógicos" style="background-color: #DFF5FA")
         p <b>Operadores Lógicos</b>
           br
           br
-          |Estos operadores se utilizan con las tablas de verdad; 
-          br
-          |el operador && (AND) es decir “y” ; solo devuelve un valor verdadero si las dos expresiones son verdad. 
-          br
-          |el operador || (OR) es decir “o”; solo devuelve un valor verdadero si una de las dos expresiones es verdadera.
-          br
-          |el operador ! (NOT) es decir “no”; devuelve un valor verdadero si la expresión es falsa y devuelve un valor falso si la expresión es verdadera.
+          |Estos operadores se utilizan con las tablas de verdad;
+          ul
+            li • El operador && (AND) es decir “y” ; solo devuelve un valor verdadero si las dos expresiones son verdad. 
+            li • El operador || (OR) es decir “o”; solo devuelve un valor verdadero si una de las dos expresiones es verdadera.
+            li • El operador ! (NOT) es decir “no”; devuelve un valor verdadero si la expresión es falsa y devuelve un valor falso si la expresión es verdadera.
           br
           br
           |Ejemplo: 
           br
-          |<span style="color: red">Int</span> a = 10; ⇒ se ha declarado la variable a de tipo entero
+          |<span style="color: red">Int</span> a = 10; ⇒ se ha declarado la variable a de tipo entero.
           br
-          |<span style="color: red">Int</span> b = 20; ⇒ se ha declarado la variable b de tipo entero 
+          |<span style="color: red">Int</span> b = 20; ⇒ se ha declarado la variable b de tipo entero.
           br
-          |<span style="color: red">Int</span> c = 8; ⇒ se ha declarado la variable c de tipo entero
+          |<span style="color: red">Int</span> c = 8; ⇒ se ha declarado la variable c de tipo entero.
           br
-          |<span style="color: red">bool</span> total;  ⇒ se ha declarado la variable total de tipo booleana
+          |<span style="color: red">bool</span> total;  ⇒ se ha declarado la variable total de tipo booleana.
           br
           br
           |total = a < b && b > c;  ⇒ el resultado es verdadero ya que a < b es verdad y b > c también es verdadero.
-      .tarjeta.p-4(titulo="Operadores de Asignación" style="background-color: #DFF5FA")
+      .tarjeta.p-4(titulo="Operadores de Incremento" style="background-color: #DFF5FA")
         p <b>Operadores de Incremento</b>
           br
           br
           |Estos operadores se llevan a cabo incrementando o disminuyendo el valor de la variable en una unidad. El operador que indica incremento es “++” y el que indica disminución es “—“. Ejemplo:
           br
           br
-          |<span style="color: red">Int</span> a = 5; ⇒ se ha declarado la variable a de tipo entero
+          |<span style="color: red">Int</span> a = 5; ⇒ se ha declarado la variable a de tipo entero.
           br
           br
-          |a ++; ⇒ se ha incrementado la variable a en 1 y ahora su valor es 6
+          |a ++; ⇒ se ha incrementado la variable a en 1 y ahora su valor es 6.
           br
-          |a ++; ⇒ se ha incrementado la variable a en 1 y ahora su valor es 7
+          |a ++; ⇒ se ha incrementado la variable a en 1 y ahora su valor es 7.
           br
-          |a ++; ⇒ se ha incrementado la variable a en 1 y ahora su valor es 8
+          |a ++; ⇒ se ha incrementado la variable a en 1 y ahora su valor es 8.
           br
-          |a  —; ⇒ se ha disminuido la variable a en 1 y ahora su valor es 7
+          |a  —; ⇒ se ha disminuido la variable a en 1 y ahora su valor es 7.
           br
     
     .d-flex.flex-wrap.align-items-center.mb-5
@@ -701,26 +678,27 @@
       .row(titulo="Estructura de control condicional")
         .w-100
           p.col-lg-11.mx-auto.mb-4 Permite que se ejecuten instrucciones siempre y cuando se cumpla una condición y el formato de la sintaxis se escribe con los códigos if y else.
+            br
             |Ejemplo: en lenguaje C#: 
             br
             br
-            |•   La condición es que la venta sea mayor a 50 dólares
+            |•   La condición es que la venta sea mayor a 50 dólares.
             br
-            |•   Si es verdadero se aplica descuento
+            |•   Si es verdadero se aplica descuento.
             br
-            |•   Si es falso no se aplica el descuento
+            |•   Si es falso no se aplica el descuento.
           img.mx-auto(src="@/assets/curso/temas/tema2/img-17.png" style="max-width: 892px")
       .row(titulo="Estructura repetitiva")
         .w-100
-          p.col-lg-11.mx-auto.mb-4 Permite que se ejecuten un bloque de instrucciones varias veces hasta que se cumpla una condición. La sintaxis es se escribe con el código while (mientras). 
+          p.col-lg-11.mx-auto.mb-4 Permite que se ejecuten un bloque de instrucciones varias veces hasta que se cumpla una condición. La sintaxis se escribe con el código while (mientras). 
             |Ejemplo: en lenguaje C#:
             br
             br
-            |•   Imprimir los múltiplos de 2
+            |•   Imprimir los múltiplos de 2.
             br
-            |•   Hasta que llegue a 20
+            |•   Hasta que llegue a 20.
           img.mx-auto(src="@/assets/curso/temas/tema2/img-18.png" style="max-width: 892px")
-    p.mb-4(data-aos="fade-right") Para complementar el aprendizaje de las temáticas se recomienda la lectura de los textos Documentación de C# y Fundamentos del lenguaje C#, los cuales se encuentran en el material complementario
+    p.mb-4(data-aos="fade-right") Para complementar el aprendizaje de las temáticas se recomienda la lectura de los textos Documentación de C# y Fundamentos del lenguaje C#, los cuales se encuentran en el material complementario.
     Separador 
 
     .titulo-segundo.color-acento-contenido
@@ -817,13 +795,13 @@
     )
       PasosB.color-acento-botones
         .row.px-3
-          .col-md-6.mb-4.mb-md-0
-            p En el programa Unity, dar clic en la ventana de jerarquía
+          .col-lg-6.mb-4.mb-lg-0
+            p • En el programa Unity, dar clic en la ventana de jerarquía
               br
-              |Clic en la opción UI (Interfaz de Usuario)
+              |• Clic en la opción UI (Interfaz de Usuario).
               br
-              |Clic en la opción <em>Button</em>
-            a.boton.color-acento-botones
+              |• Clic en la opción <em>Button</em>.
+            a.boton.color-acento-botones(@click="imgSelect = 1; modal2 = true;")
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-md-6
@@ -831,84 +809,84 @@
               img(src='@/assets/curso/temas/tema2/img-19.jpg')
               figcaption(style="background-color: transparent") <em>Evento</em>
         .row.px-3
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             p Una vez creado el botón en la ventana de jerarquía se adiciona el objeto creado dentro de la plantilla Canvas y se pueden realizar las siguientes opciones:
               br
-              |Doble clic en la ventana de jerarquía en la opción Button
+              |• Doble clic en la ventana de jerarquía en la opción Button.
               br
-              |Clic en el botón del menú para cambiar el tamaño arrastrando los puntos de los extremos 
+              |• Clic en el botón del menú para cambiar el tamaño arrastrando los puntos de los extremos.
               br
-              |Doble clic en la ventana de jerarquía en la opción Text para cambiar el nombre del botón que este caso se va a llamar <em>Exit</em>.
-            a.boton.color-acento-botones(@click="modal1 = true")
+              |• Doble clic en la ventana de jerarquía en la opción Text para cambiar el nombre del botón que este caso se va a llamar <em>Exit</em>.
+            a.boton.color-acento-botones(@click="imgSelect = 2; modal2 = true;")
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 27px")
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema2/img-20.jpg')
               figcaption(style="background-color: transparent") Botón
         .row.px-3
-          .col-md-6.mb-4.mb-md-0
-            p Ya creado el botón debe asociarse la acción que va a realizar, que en este caso es salir y para ello se crea un script o líneas de código :
+          .col-lg-6.mb-4.mb-lg-0
+            p Ya creado el botón debe asociarse la acción que va a realizar, que en este caso es salir y para ello se crea un script o líneas de código:
               br
-              |Clic en menú Assets
+              |• Clic en menú Assets.
               br
-              |Clic en la opción <em>Create</em>
+              |• Clic en la opción <em>Create</em>.
               br
-              |Clic en la opción C# <em>Script</em>
-            a.boton.color-acento-botones
+              |• Clic en la opción C# <em>Script</em>.
+            a.boton.color-acento-botones(@click="imgSelect = 3; modal2 = true;")
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema2/img-21.jpg')
               figcaption(style="background-color: transparent") <em>Script</em>
         .row.px-3
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             p En la parte inferior en la ventana de proyecto se crea el archivo donde vamos a escribir las líneas de código, en este caso se le colocó el nombre Salir y en la ventana del inspector se muestra unas instrucciones con la estructura básica del programa:
-            a.boton.color-acento-botones
+            a.boton.color-acento-botones(@click="imgSelect = 4; modal2 = true;")
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema2/img-22.jpg')
               figcaption(style="background-color: transparent") <em>Archivo script</em>
         .row.px-3
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             p Al hacer doble clic en el archivo C# denominado Salir se abre la ventana del editor Visual Studio en el cual se podrán escribir las líneas de código que ejecutarán la acción de salir.  
               br
               br
               |En este caso se ha declarado una función  de tipo pública (<b><em>public</em></b>), es decir, que se puede utilizar en cualquier y por otros programas y además tiene la característica <b><em>void</em></b>, que quiere decir, no devuelve ningún tipo de valor sino que ejecuta la acción. La sentencia <b><em>Application</em></b>.<em>Quit</em> ejecuta la acción de abandonar.
-            a.boton.color-acento-botones
+            a.boton.color-acento-botones(@click="imgSelect = 5; modal2 = true;")
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema2/img-23.jpg')
               figcaption(style="background-color: transparent") <em>Editor</em>
         .row.px-3
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             p Una vez construida la línea de código se debe anexar el evento en el inspector para que pueda ser ejecutado posteriormente. 
               br
               br
-              |En la barra <span style="color: red; font-weight: bold;">1</span> On Click () se debe asociar la función del evento
+              |• En la barra <span style="color: red; font-weight: bold;">1</span> On Click () se debe asociar la función del evento.
               br
-              |Clic en <span style="color: red; font-weight: bold;">2</span> el signo + para agregar la función salir
+              |• Clic en <span style="color: red; font-weight: bold;">2</span> el signo + para agregar la función salir.
               br
-              |En el botón <em>Runtime Only</em> se ha agregado la función Salir <span style="color: red; font-weight: bold;">(3)</span>
-            a.boton.color-acento-botones
+              |• En el botón <em>Runtime Only</em> se ha agregado la función Salir <span style="color: red; font-weight: bold;">(3)</span>.
+            a.boton.color-acento-botones(@click="imgSelect = 6; modal2 = true;")
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema2/img-24.jpg')
               figcaption(style="background-color: transparent") <em>Asociar</em>
         .row.px-3
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-lg-0
             p Cuando la función está lista para ser utilizada se observa en modo <em>Game</em> y no en modo escena para visualizar como se verá el botón del evento en la interfaz del usuario para que pueda ser accionado por éste.
-            a.boton.color-acento-botones
+            a.boton.color-acento-botones(@click="imgSelect = 7; modal2 = true;")
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema2/img-25.jpg')
               figcaption(style="background-color: transparent") <em>Juego</em>
@@ -931,7 +909,7 @@
           p Como se mencionó antes son espacios reservados en la memoria para almacenar valores de diferentes tipos, ya se vio en los anteriores apartados su tipología (numéricos, lógicos, alfanuméricos), pero en Unity también hay tipos de datos de referencia que se aplican a los objetos como Transform y Light que se visualizan en la ventana del Inspector; donde la primera trata con aspectos de posición, rotación y tamaño del objeto y la segunda con efectos de iluminación.
           p Las variables deben ser declaradas al comienzo del bloque de las líneas de código definiendo si van a ser públicas o privadas. Una <b>variable pública</b> es aquella que puede ser utilizada por otros scripts y cambiar su valor porque es accesible para ellos ya que aparece en la ventana del Inspector y una <b>variable privada</b> es aquella que solo puede ser utilizada dentro de una misma clase (ya se verá este término a continuación) y dentro de un mismo método o función y no puede ser visualizada en el Inspector porque sus valores no son manipulables por otros scripts.
           p Cuando se codifica una variable se debe tener en cuenta aspectos de nomenclatura como que el nombre no debe empezar por un número y  no debe tener espacios.
-          a.col.boton.color-acento-botones
+          a.col.boton.color-acento-botones(@click="imgSelect = 8; modal2 = true;")
             span Ampliar imagen
             img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
         .col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0
@@ -946,13 +924,13 @@
           br
           |<b>Start:</b>  función que es llamada para inicializar el procedimiento.
           br
-          |<b>Update:</b> función que se utiliza para el movimiento de los objetos sin utilizar el método física de Unity y se repite cada vez que se necesite para actualizar el 
-          brestado de este.
+          |<b>Update:</b> función que se utiliza para el movimiento de los objetos sin utilizar el método física de Unity y se repite cada vez que se necesite para actualizar el brestado de este.
+          br
           |<b>FixedUpdate:</b> función que se utiliza para controlar objetos cuando dependen de la física.
         .d-flex.flex-wrap.mb-5
           .col-lg.order-2.order-lg-1
             p <b>Ejemplo:</b> en la siguiente escena en Unity se van a adicionar unas líneas de código para crear un evento sobre el plano y el cubo para lo cual se creó un archivo <em>script “TestClick”</em>  que al ser llamado desplegó en la ventana del Inspector el llamado a la clase base <em>Mono Behaviour</em> que a su vez activo las funciones <em>Start y Update</em>.
-            a.col.boton.color-acento-botones
+            a.col.boton.color-acento-botones(@click="imgSelect = 9; modal2 = true;")
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0.ps-lg-4
@@ -972,11 +950,11 @@
           |<b>Ejemplo:</b> En el editor de texto Visual Studio se ha creado un método con identificador Multiplica, el cual contiene dos parámetros de tipo entero (a y b) cuya funcionalidad es multiplicar dos números. El resultado que debe retornar el método ( c ) es de tipo entero.
         .d-flex.flex-wrap.mb-5
           .col-lg.order-2.order-lg-1
-            p El método Multiplica es de tipo publico es decir puede ser utilizado en otros scripts y el nombre del archivo es TestClick. cs y el programa ha llamado la clase MonoBehaviour que contiene las funciones de inicialización por defecto:
+            p El método Multiplica es de tipo público es decir puede ser utilizado en otros scripts y el nombre del archivo es TestClick. cs y el programa ha llamado la clase MonoBehaviour que contiene las funciones de inicialización por defecto:
               br
               br
               |public class TestClick.cs : MonoBehaviour {
-            a.col.boton.color-acento-botones
+            a.col.boton.color-acento-botones(@click="imgSelect = 10; modal2 = true;")
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0.ps-lg-4
@@ -984,7 +962,7 @@
             em Método
 
       .row.col-xl-11.mx-auto(titulo="Clases")
-        p.mb-5 Son las que agrupan los atributos y características que van a contener los objetos que se crean en Unity; dentro de ellas se encuentras las variables y los métodos (funciones) que se aplicarán para que se comporte como se ha planeado. 
+        p.mb-5 Son las que agrupan los atributos y características que van a contener los objetos que se crean en Unity; dentro de ellas se encuentran las variables y los métodos (funciones) que se aplicarán para que se comporte como se ha planeado. 
           br
           br
           |El objeto se comporta de acuerdo con los atributos contenidos en la clase, lo que significa que esta (clase) actúa como un molde para los objetos que se construyan dentro de ella.
@@ -994,9 +972,6 @@
         .d-flex.flex-wrap.mb-5
           .col-lg.order-2.order-lg-1
             p Cuando se están escribiendo líneas de código y se crean  varias clases para los objetos las cuales van agrupar diferentes atributos, entonces se utiliza lo que se llama “Espacios de nombres”; para organizar clases dentro de un mismo entorno, agrupándolas para darle una mejor estructura al script y evitar confusiones cuando el motor de Unity haga la compilación de las instrucciones para ser ejecutadas.
-            a.col.boton.color-acento-botones
-              span Ampliar imagen
-              img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0.ps-lg-4
             tabla.tabla-edit-2
               thead(style="border: 1px solid black")
@@ -1019,7 +994,7 @@
         
         .d-flex.flex-wrap.mb-5
           .col-lg.order-2.order-lg-1
-            p.mb-4 <b>Ejemplo:</b> Crear un Script e identificar los espacios de nombres. 
+            p.mb-4 <b>Ejemplo:</b> crear un Script e identificar los espacios de nombres. 
               br
               br
               |Para crear el Script hay dos formas: 
@@ -1029,8 +1004,7 @@
               |Project > Create > C# Script
               br
               br
-              |Se ha creado entonces un archivo llamado <em>NewBehaviourScript.cs</em> que es el nombre por defecto, el cual puede ser cambiado por el que el usuario necesite para |
-              bridentificar las acciones que realiza.
+              |Se ha creado entonces un archivo llamado <em>NewBehaviourScript.cs</em> que es el nombre por defecto, el cual puede ser cambiado por el que el usuario necesite para bridentificar las acciones que realiza.
               br
               br
               |• <b>using System.Collections:</b>  esta línea de <em>Script</em> significa que se declara una clase llamada <em>Collections</em> la cual agrupara diferentes objetos dependiendo de sus atributos y funciones. 
@@ -1038,7 +1012,7 @@
               |• <b>using System.Collections.Generic:</b> dentro de la clase Collections hay elementos que son de un solo tipo. Esto quiere decir que cuando se recupera un elemento de esta clase no hay que definirle el tipo.
               br
               |• <b>using UnityEngine:</b> permite que el Script herede de la clase MonoBehavour todas las funciones como <em>awake, start, update, Transform, Light,</em> entre otras.
-            a.col.boton.color-acento-botones
+            a.col.boton.color-acento-botones(@click="imgSelect = 10; modal2 = true;")
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0.ps-lg-4
@@ -1056,21 +1030,21 @@
     .tarjeta.mb-5.p-4.px-md-5(style="background-color: #D8F3F9" data-aos="fade-left")
       SlyderA(tipo="b")
         .row
-          .col-md-4.mb-4.mb-md-0
+          .col-lg-4.mb-4.mb-lg-0
             p.mb-4 • Clic en la opción de menú GameObject
               br
               |• Clic en la opción UI
               br
               |• Clic en la opción Canvas
-            a.boton.color-acento-botones
+            a.boton.color-acento-botones(@click="imgSelect = 11; modal2 = true;")
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
-          .col-md-8
+          .col-lg-8
             figure
               img(src='@/assets/curso/temas/tema2/img-30.jpg')
               figcaption Canvas.
         .row
-          .col-md-8.mb-4.mb-md-0
+          .col-lg-8.mb-4.mb-lg-0
             p.mb-4 Cuando se ha añadido Canvas a la escena en la ventana del Inspector se observa cada uno de sus componentes:
               br
               br
@@ -1079,21 +1053,21 @@
               br
               |<em><b>2  Canvas:</b></em> es el área bajo la cual se van a ubicar los elementos que va a contener la interfaz:
               br
-              |*opción Screen Space - Overlay indica que la plantilla de Canvas se ajustara al tamaño de la pantalla.
+              |*Opción Screen Space - Overlay indica que la plantilla de Canvas se ajustara al tamaño de la pantalla.
               br
-              |*opción Screen Space - Camera indica que la plantilla de Canvas se ajustara para encajar en el plano de la cámara.
+              |*Opción Screen Space - Camera indica que la plantilla de Canvas se ajustara para encajar en el plano de la cámara.
               br
-              |*opción World Space - indica que la plantilla de Canvas tratara la imagen como un objeto plano en la escena.
+              |*Opción World Space - indica que la plantilla de Canvas tratara la imagen como un objeto plano en la escena.
               br
               br
               |<em><b>3 Canvas Scaler (Script):</b></em> tiene que ver con la densidad del pixel de los elementos que se coloquen dentro de la plantilla, esto hace que se vea con mayor o menor resolución.
               br
               br
               |<em><b>4 Graphic Raycaster (Script):</b></em> controla los elementos gráficos teniendo en cuenta los que se colocan en el fondo o delante. 
-            a.boton.color-acento-botones
+            a.boton.color-acento-botones(@click="imgSelect = 12; modal2 = true;")
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
-          .col-md-4
+          .col-lg-4
             figure
               img(src='@/assets/curso/temas/tema2/img-31.jpg')
               figcaption Componentes.
@@ -1106,7 +1080,7 @@
       .tarjeta.mb-5.p-4.px-md-5(style="background-color: #D8F3F9" data-aos="fade-left")
         SlyderA(tipo="b")
           .row
-            .col-md-4.mb-4.mb-md-0
+            .col-lg-4.mb-4.mb-lg-0
               p.mb-4 Después que se ha llamado la plantilla Canvas se realiza:
                 br
                 br
@@ -1115,7 +1089,7 @@
                 |• Clic en UI
                 br
                 |• Clic en Button
-              a.boton.color-acento-botones
+              a.boton.color-acento-botones(@click="imgSelect = 13; modal2 = true;")
                 span Ampliar imagen
                 img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
             .col-md-8
@@ -1123,13 +1097,13 @@
                 img(src='@/assets/curso/temas/tema2/img-32.jpg')
                 figcaption Crear.
           .row
-            .col-md-4.mb-4.mb-md-0
+            .col-lg-4.mb-4.mb-lg-0
               p.mb-4 Una vez añadido el botón al área de la escena y dentro de Canvas, realizar:
                 br
                 |•   Doble clic sobre Button de la ventana de jerarquía para activar texto
                 br
                 |•   Escribir la palabra Inicio de sesión dentro del cajón de texto del Inspector
-              a.boton.color-acento-botones
+              a.boton.color-acento-botones(@click="imgSelect = 14; modal2 = true;")
                 span Ampliar imagen
                 img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
             .col-md-8
@@ -1138,6 +1112,22 @@
                 figcaption El área de Canvas está listo para adicionar otros componentes si se desea.
 
     p(data-aos="fade-right") Para profundizar en la ventana del Inspector del Canvas y en las temáticas de programación en Unity3D se recomienda consultar los siguientes sitios web:
+    ModalA(:abrir-modal.sync="modal2")
+      .row.align-items-center
+        img(src='@/assets/curso/temas/tema2/img-19.jpg' v-if="imgSelect == 1")
+        img(src='@/assets/curso/temas/tema2/img-20.jpg' v-if="imgSelect == 2")
+        img(src='@/assets/curso/temas/tema2/img-21.jpg' v-if="imgSelect == 3")
+        img(src='@/assets/curso/temas/tema2/img-22.jpg' v-if="imgSelect == 4")
+        img(src='@/assets/curso/temas/tema2/img-23.jpg' v-if="imgSelect == 5")
+        img(src='@/assets/curso/temas/tema2/img-24.jpg' v-if="imgSelect == 6")
+        img(src='@/assets/curso/temas/tema2/img-25.jpg' v-if="imgSelect == 7")
+        img.mx-auto(src='@/assets/curso/temas/tema2/img-26.jpg' style="max-width: 500px" v-if="imgSelect == 8")
+        img(src='@/assets/curso/temas/tema2/img-27.jpg' v-if="imgSelect == 9")
+        img(src='@/assets/curso/temas/tema2/img-28.jpg' v-if="imgSelect == 10")
+        img(src='@/assets/curso/temas/tema2/img-30.jpg' v-if="imgSelect == 11")
+        img.mx-auto(src='@/assets/curso/temas/tema2/img-31.jpg'  style="max-width: 500px" v-if="imgSelect == 12")
+        img(src='@/assets/curso/temas/tema2/img-32.jpg' v-if="imgSelect == 13")
+        img(src='@/assets/curso/temas/tema2/img-33.jpg' v-if="imgSelect == 14")
 </template>
 
 <script>
@@ -1145,6 +1135,8 @@ export default {
   name: 'Tema2',
   data: () => ({
     modal1: false,
+    modal2: false,
+    imgSelect: 0,
   }),
   mounted() {
     this.$nextTick(() => {
