@@ -96,12 +96,12 @@ export default {
       },
     ],
     subMenu: [
-      // {
-      //   icono: 'fas fa-sitemap',
-      //   titulo: 'Síntesis',
-      //   nombreRuta: 'sintesis',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        icono: 'fas fa-sitemap',
+        titulo: 'Síntesis',
+        nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
@@ -258,21 +258,21 @@ export default {
   referencias: [
     {
       referencia:
-        'Acerenza, N. et al. (2009). <em>Una Metodología para Desarrollo de Videojuegos. [PDF]</em>',
+        'MinTIC, MinEducación. (s.f.). <em>Lección 1: ¿Qué es un algoritmo?</em>',
       link:
-        'https://www.fing.edu.uy/sites/default/files/biblio/22811/asse_2009_16.pdf',
+        'http://contenidos.sucerman.com/nivel1/programacion/unidad1/leccion1.html',
     },
     {
       referencia:
-        'Colombiaaprende.edu.co (s.f). <em>Lección 1: ¿Qué es un algoritmo?.</em>',
+        'MinTIC, MinEducación. (s.f.). <em>Lección 2: Los diagramas de flujo.</em>',
       link:
         'https://aprende.colombiaaprende.edu.co/sites/default/files/naspublic/curriculos_ex/n1g10_fproy/nivel1/programacion/unidad1/leccion1.html',
     },
     {
       referencia:
-        'Colombiaaprende.edu.co (s.f). Lección 2: <em>Los diagramas de flujo.</em>',
+        'MinTIC, MinEducación. (s.f.) <em>Lección 2: Los diagramas de flujo.</em>',
       link:
-        'https://aprende.colombiaaprende.edu.co/sites/default/files/naspublic/curriculos_ex/n1g10_fproy/nivel1/programacion/unidad1/leccion1.html',
+        'http://contenidos.sucerman.com/nivel1/programacion/unidad1/leccion2.html',
     },
     {
       referencia:

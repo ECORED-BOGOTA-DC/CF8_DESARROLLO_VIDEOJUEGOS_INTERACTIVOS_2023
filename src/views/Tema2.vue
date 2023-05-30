@@ -1111,7 +1111,7 @@
                 img(src='@/assets/curso/temas/tema2/img-33.jpg')
                 figcaption El área de Canvas está listo para adicionar otros componentes si se desea.
 
-    p(data-aos="fade-right") Para profundizar en la ventana del Inspector del Canvas y en las temáticas de programación en Unity3D se recomienda consultar los siguientes sitios web:
+    p.mb-5(data-aos="fade-right") Para profundizar en la ventana del Inspector del Canvas y en las temáticas de programación en Unity3D se recomienda consultar los siguientes sitios web:
     ModalA(:abrir-modal.sync="modal2")
       .row.align-items-center
         img(src='@/assets/curso/temas/tema2/img-19.jpg' v-if="imgSelect == 1")
@@ -1128,6 +1128,29 @@
         img.mx-auto(src='@/assets/curso/temas/tema2/img-31.jpg'  style="max-width: 500px" v-if="imgSelect == 12")
         img(src='@/assets/curso/temas/tema2/img-32.jpg' v-if="imgSelect == 13")
         img(src='@/assets/curso/temas/tema2/img-33.jpg' v-if="imgSelect == 14")
+  
+    .tarjeta.p-3.col-lg-8.mx-auto.mb-4(style="background-color: #C0EBF6" data-aos="fade-left")
+      .row.justify-content-around.align-items-center
+        img(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 98px")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.mb-3 López, B. (s.f.). <em>Fundamentos de Programación.</em>
+            .col-sm-auto
+              a.boton.color-acento-botones(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=6425" target="_blank")
+                span.pe-2 Enlace web
+                img(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px")
+    .tarjeta.p-3.col-lg-8.mx-auto(style="background-color: #C0EBF6" data-aos="fade-left")
+      .row.justify-content-around.align-items-center
+        img(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 98px")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.mb-3 Unity. (2018). <em>Documentation.</em>
+            .col-sm-auto
+              a.boton.color-acento-botones(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=6425" target="_blank")
+                span.pe-2 Enlace web
+                img(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px")
 </template>
 
 <script>
