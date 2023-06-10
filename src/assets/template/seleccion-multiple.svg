@@ -1,66 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144" height="132" viewBox="0 0 144 132">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="207.448" height="190.238" viewBox="0 0 207.448 190.238">
   <defs>
     <clipPath id="clip-path">
-      <rect id="Rectángulo_1" data-name="Rectángulo 1" width="58.321" height="58.321" fill="#404040" stroke="#404040" stroke-width="1"/>
+      <rect id="Rectángulo_1" data-name="Rectángulo 1" width="84.017" height="84.017" fill="#404040" stroke="#404040" stroke-width="1"/>
     </clipPath>
   </defs>
-  <g id="Grupo_28" data-name="Grupo 28" transform="translate(-8 -13)">
-    <path id="blob_4_" data-name="blob(4)" d="M72.394-16.486c5.57,20.461-12.049,45.014-36.375,63.428S-19.452,77.861-41.618,64.789C-63.9,51.717-77.2,13.3-67.194-13.3-57.191-40.016-23.771-54.679,7.261-54,38.293-53.2,66.938-36.833,72.394-16.486Z" transform="translate(78.572 72.02)" fill="#fff0e5"/>
-    <g id="Grupo_3" data-name="Grupo 3" transform="translate(171.665 162.676) rotate(180)">
-      <text id="_" data-name="+" transform="translate(92.665 104.676)" fill="#ff6b00" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-5.99" y="0">+</tspan></text>
-      <text id="_2" data-name="+" transform="translate(32.665 120.676)" fill="#ff6b00" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-5.99" y="0">+</tspan></text>
-      <text id="_3" data-name="+" transform="translate(112.665 36.676)" fill="#ff6b00" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-5.99" y="0">+</tspan></text>
-      <circle id="Elipse_1" data-name="Elipse 1" cx="4" cy="4" r="4" transform="translate(22.665 39.676)" fill="#ff6b00"/>
-      <circle id="Elipse_2" data-name="Elipse 2" cx="4" cy="4" r="4" transform="translate(49.665 132.676)" fill="#ff6b00"/>
-      <circle id="Elipse_5" data-name="Elipse 5" cx="4" cy="4" r="4" transform="translate(125.665 128.676)" fill="#ff6b00"/>
-      <circle id="Elipse_6" data-name="Elipse 6" cx="10" cy="10" r="10" transform="translate(62.665 27.676)" fill="#ff6b00" opacity="0.1"/>
-      <circle id="Elipse_7" data-name="Elipse 7" cx="10" cy="10" r="10" transform="translate(125.665 93.676)" fill="#ff6b00" opacity="0.1"/>
-      <circle id="Elipse_11" data-name="Elipse 11" cx="7" cy="7" r="7" transform="translate(141.665 19.676)" fill="#ff6b00" opacity="0.1"/>
-      <circle id="Elipse_12" data-name="Elipse 12" cx="7" cy="7" r="7" transform="translate(21.665 135.676)" fill="#ff6b00" opacity="0.1"/>
-      <circle id="Elipse_8" data-name="Elipse 8" cx="10" cy="10" r="10" transform="translate(59.665 122.676)" fill="#ff6b00" opacity="0.1"/>
-      <g id="Elipse_3" data-name="Elipse 3" transform="translate(121.665 89.676)" fill="none" stroke="#ff6b00" stroke-width="2">
-        <circle cx="4" cy="4" r="4" stroke="none"/>
-        <circle cx="4" cy="4" r="3" fill="none"/>
-      </g>
-      <g id="Elipse_4" data-name="Elipse 4" transform="translate(28.665 69.676)" fill="none" stroke="#ff6b00" stroke-width="2">
-        <circle cx="4" cy="4" r="4" stroke="none"/>
-        <circle cx="4" cy="4" r="3" fill="none"/>
-      </g>
-    </g>
-    <g id="Grupo_13" data-name="Grupo 13" transform="translate(-1.227 -4.396)">
-      <g id="Grupo_10" data-name="Grupo 10" transform="translate(40 36)">
-        <circle id="Elipse_13" data-name="Elipse 13" cx="13" cy="13" r="13" transform="translate(0.227 0.396)" fill="#fff"/>
-        <g id="Icon_feather-check-circle" data-name="Icon feather-check-circle" transform="translate(1.102 1.102)">
-          <path id="Trazado_18" data-name="Trazado 18" d="M26.933,13.864v1.1a11.967,11.967,0,1,1-7.1-10.937" transform="translate(-3 -2.991)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-          <path id="Trazado_19" data-name="Trazado 19" d="M23.9,6l-7.147,7.155" transform="translate(-8.364 2.39)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-          <path id="Trazado_41" data-name="Trazado 41" d="M7.147,0,0,7.155" transform="translate(15.544 8.394) rotate(90)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <g id="Grupo_239785" data-name="Grupo 239785" transform="translate(-180 -622.12)">
+    <g id="Grupo_28" data-name="Grupo 28" transform="translate(172.002 609.204)">
+      <path id="blob_4_" data-name="blob(4)" d="M135.385.052c8.024,29.476-17.358,64.847-52.4,91.374S3.072,135.968-28.86,117.137C-60.96,98.305-80.119,42.962-65.7,4.642-51.295-33.845-3.15-54.968,41.555-53.99,86.259-52.838,127.525-29.259,135.385.052Z" transform="translate(78.572 74.218)" fill="#dbf6ff"/>
+      <g id="Grupo_3" data-name="Grupo 3" transform="translate(212.577 203.155) rotate(180)">
+        <text id="_" data-name="+" transform="translate(93.686 123.509)" fill="#13c4ff" font-size="27" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">+</tspan></text>
+        <text id="_2" data-name="+" transform="translate(7.648 147.408)" fill="#2c04bf" font-size="27" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">+</tspan></text>
+        <text id="_3" data-name="+" transform="translate(122.365 26)" fill="#2c04bf" font-size="27" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">+</tspan></text>
+        <circle id="Elipse_1" data-name="Elipse 1" cx="5.736" cy="5.736" r="5.736" transform="translate(1.912 31.547)" fill="#13c4ff"/>
+        <circle id="Elipse_2" data-name="Elipse 2" cx="5.736" cy="5.736" r="5.736" transform="translate(40.151 165.383)" fill="#13c4ff"/>
+        <circle id="Elipse_5" data-name="Elipse 5" cx="5.736" cy="5.736" r="5.736" transform="translate(150.088 159.647)" fill="#13c4ff"/>
+        <circle id="Elipse_6" data-name="Elipse 6" cx="14.34" cy="14.34" r="14.34" transform="translate(59.27 14.339)" fill="#2c04bf" opacity="0.1"/>
+        <circle id="Elipse_7" data-name="Elipse 7" cx="14.34" cy="14.34" r="14.34" transform="translate(150.088 109.936)" fill="#2c04bf" opacity="0.1"/>
+        <circle id="Elipse_11" data-name="Elipse 11" cx="10.038" cy="10.038" r="10.038" transform="translate(173.032 2.867)" fill="#2c04bf" opacity="0.1"/>
+        <circle id="Elipse_12" data-name="Elipse 12" cx="10.038" cy="10.038" r="10.038" transform="translate(0 170.163)" fill="#2c04bf" opacity="0.1"/>
+        <circle id="Elipse_8" data-name="Elipse 8" cx="14.34" cy="14.34" r="14.34" transform="translate(54.491 151.043)" fill="#2c04bf" opacity="0.1"/>
+        <g id="Elipse_3" data-name="Elipse 3" transform="translate(144.352 104.2)" fill="none" stroke="#2c04bf" stroke-width="2">
+          <circle cx="5.736" cy="5.736" r="5.736" stroke="none"/>
+          <circle cx="5.736" cy="5.736" r="4.736" fill="none"/>
+        </g>
+        <g id="Elipse_4" data-name="Elipse 4" transform="translate(10.516 74.565)" fill="none" stroke="#2c04bf" stroke-width="2">
+          <circle cx="5.736" cy="5.736" r="5.736" stroke="none"/>
+          <circle cx="5.736" cy="5.736" r="4.736" fill="none"/>
         </g>
       </g>
-      <g id="Grupo_16" data-name="Grupo 16" transform="translate(40 104.338)">
-        <circle id="Elipse_13-2" data-name="Elipse 13" cx="13" cy="13" r="13" transform="translate(0.227 0.058)" fill="#fff"/>
-        <g id="Icon_feather-check-circle-2" data-name="Icon feather-check-circle" transform="translate(1.102 1.102)">
-          <path id="Trazado_18-2" data-name="Trazado 18" d="M26.933,13.864v1.1a11.967,11.967,0,1,1-7.1-10.937" transform="translate(-3 -2.991)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-          <path id="Trazado_19-2" data-name="Trazado 19" d="M23.9,6l-7.147,7.155" transform="translate(-8.364 2.39)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-          <path id="Trazado_41-2" data-name="Trazado 41" d="M7.147,0,0,7.155" transform="translate(15.544 8.394) rotate(90)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <g id="Grupo_13" data-name="Grupo 13" transform="translate(52.929 40.639)">
+        <g id="Grupo_10" data-name="Grupo 10" transform="translate(0 0)">
+          <circle id="Elipse_13" data-name="Elipse 13" cx="18.642" cy="18.642" r="18.642" transform="translate(0)" fill="#fff"/>
+          <g id="Icon_feather-check-circle" data-name="Icon feather-check-circle" transform="translate(0.989 0.747)">
+            <path id="Trazado_18" data-name="Trazado 18" d="M37.478,18.654v1.585A17.24,17.24,0,1,1,27.25,4.483" transform="translate(-2.999 -2.992)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            <path id="Trazado_19" data-name="Trazado 19" d="M27.049,6l-10.3,10.307" transform="translate(-4.666 6.085)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            <path id="Trazado_41" data-name="Trazado 41" d="M10.3,0,0,10.307" transform="translate(22.394 12.091) rotate(90)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          </g>
+        </g>
+        <g id="Grupo_16" data-name="Grupo 16" transform="translate(0 97.51)">
+          <circle id="Elipse_13-2" data-name="Elipse 13" cx="18.642" cy="18.642" r="18.642" transform="translate(0 0)" fill="#fff"/>
+          <g id="Icon_feather-check-circle-2" data-name="Icon feather-check-circle" transform="translate(0.989 1.685)">
+            <path id="Trazado_18-2" data-name="Trazado 18" d="M37.478,18.654v1.585A17.24,17.24,0,1,1,27.25,4.483" transform="translate(-2.999 -2.992)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            <path id="Trazado_19-2" data-name="Trazado 19" d="M27.049,6l-10.3,10.307" transform="translate(-4.666 6.085)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            <path id="Trazado_41-2" data-name="Trazado 41" d="M10.3,0,0,10.307" transform="translate(22.394 12.091) rotate(90)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          </g>
+        </g>
+        <g id="Grupo_11" data-name="Grupo 11" transform="translate(0 48.754)">
+          <circle id="Elipse_13-3" data-name="Elipse 13" cx="18.642" cy="18.642" r="18.642" transform="translate(0 0)" fill="#fff"/>
+          <g id="Icon_feather-check-circle-3" data-name="Icon feather-check-circle" transform="translate(0.989 1.216)">
+            <path id="Trazado_18-3" data-name="Trazado 18" d="M37.478,18.654v1.585A17.24,17.24,0,1,1,27.25,4.483" transform="translate(-2.999 -2.992)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            <path id="Trazado_19-3" data-name="Trazado 19" d="M35.911,6,18.672,23.257,13.5,18.085" transform="translate(-1.431 -2.543)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          </g>
         </g>
       </g>
-      <g id="Grupo_11" data-name="Grupo 11" transform="translate(40 70.169)">
-        <circle id="Elipse_13-3" data-name="Elipse 13" cx="13" cy="13" r="13" transform="translate(0.227 0.227)" fill="#fff"/>
-        <g id="Icon_feather-check-circle-3" data-name="Icon feather-check-circle" transform="translate(1.102 1.102)">
-          <path id="Trazado_18-3" data-name="Trazado 18" d="M26.933,13.864v1.1a11.967,11.967,0,1,1-7.1-10.937" transform="translate(-3 -2.991)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-          <path id="Trazado_19-3" data-name="Trazado 19" d="M29.057,6,17.09,17.979l-3.59-3.59" transform="translate(-5.123 -3.599)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-        </g>
-      </g>
-    </g>
-    <g id="Grupo_15" data-name="Grupo 15" transform="translate(-4 9.097)">
-      <path id="Trazado_40" data-name="Trazado 40" d="M905.655,93.858l3.785-11.922s41.979-44.133,43.3-44.28a41.508,41.508,0,0,1,4.382,0l4.731,4.731v4.731l-44.28,43.144Z" transform="translate(-830 5)" fill="#fff"/>
-      <g id="Grupo_14" data-name="Grupo 14" transform="translate(74 41.742)">
-        <g id="Grupo_8" data-name="Grupo 8" transform="translate(0 0.001)" clip-path="url(#clip-path)">
-          <path id="Trazado_35" data-name="Trazado 35" d="M12.435,53.148a1.107,1.107,0,0,1-.78-.323L3.5,44.667a1.107,1.107,0,0,1,0-1.563L40.088,6.512a1.135,1.135,0,0,1,1.562,0l8.159,8.159a1.1,1.1,0,0,1,0,1.562L13.217,52.826a1.108,1.108,0,0,1-.781.323m-6.6-9.263,6.6,6.6,35.03-35.032-6.6-6.6Z" transform="translate(0.677 1.323)" fill="#404040" stroke="#404040" stroke-width="1"/>
-          <path id="Trazado_36" data-name="Trazado 36" d="M43.431,18a1.1,1.1,0,0,1-.78-.324L33.064,8.092a1.107,1.107,0,0,1,0-1.563l3.449-3.447a1.138,1.138,0,0,1,1.562,0l9.586,9.587a1.1,1.1,0,0,1,0,1.562l-3.447,3.447a1.1,1.1,0,0,1-.781.324M35.407,7.31l8.024,8.026,1.887-1.886L37.293,5.425Z" transform="translate(6.988 0.591)" fill="#404040" stroke="#404040" stroke-width="1"/>
-          <path id="Trazado_37" data-name="Trazado 37" d="M45.433,14.431a1.1,1.1,0,0,1-.78-.323l-8.16-8.159a1.107,1.107,0,0,1,0-1.563L39.68,1.2a4.1,4.1,0,0,1,5.794,0L49.4,5.127a4.1,4.1,0,0,1,0,5.794l-3.186,3.188a1.106,1.106,0,0,1-.781.323m-6.6-9.263,6.6,6.6,2.406-2.406a1.888,1.888,0,0,0,0-2.671L43.913,2.762a1.935,1.935,0,0,0-2.671,0Z" transform="translate(7.72 -0.001)" fill="#404040" stroke="#404040" stroke-width="1"/>
-          <path id="Trazado_38" data-name="Trazado 38" d="M1.1,50.565A1.1,1.1,0,0,1,.052,49.123L3.9,37.115a1.1,1.1,0,0,1,1.832-.444l8.16,8.159a1.105,1.105,0,0,1-.444,1.833L1.442,50.511a1.082,1.082,0,0,1-.337.053M5.452,39.513,2.81,47.753l8.24-2.642Z" transform="translate(0 7.757)" fill="#404040" stroke="#404040" stroke-width="1"/>
-          <path id="Trazado_39" data-name="Trazado 39" d="M7.638,48.355a1.1,1.1,0,0,1-.781-1.886L43.451,9.876a1.1,1.1,0,0,1,1.56,1.562L8.419,48.031a1.1,1.1,0,0,1-.78.324" transform="translate(1.394 2.038)" fill="#404040" stroke="#404040" stroke-width="1"/>
+      <g id="Grupo_15" data-name="Grupo 15" transform="translate(97.318 67.508)">
+        <path id="Trazado_40" data-name="Trazado 40" d="M905.655,118.646l5.453-17.175s60.475-63.578,62.378-63.79a59.794,59.794,0,0,1,6.313,0l6.816,6.815v6.815l-63.79,62.153Z" transform="translate(-903.271 -36.366)" fill="#fff"/>
+        <g id="Grupo_14" data-name="Grupo 14" transform="translate(0 0)">
+          <g id="Grupo_8" data-name="Grupo 8" transform="translate(0 0)" clip-path="url(#clip-path)">
+            <path id="Trazado_35" data-name="Trazado 35" d="M16.514,73.833a1.6,1.6,0,0,1-1.124-.465L3.642,61.615a1.6,1.6,0,0,1,0-2.252L56.351,6.649a1.635,1.635,0,0,1,2.25,0L70.355,18.4a1.585,1.585,0,0,1,0,2.25L17.641,73.369a1.6,1.6,0,0,1-1.125.465M7.008,60.49,16.515,70,66.98,19.531l-9.508-9.508Z" transform="translate(2.375 4.638)" fill="#404040" stroke="#404040" stroke-width="1"/>
+            <path id="Trazado_36" data-name="Trazado 36" d="M48.141,24.71a1.585,1.585,0,0,1-1.124-.467L33.206,10.436a1.6,1.6,0,0,1,0-2.252l4.969-4.966a1.639,1.639,0,0,1,2.25,0L54.235,17.03a1.585,1.585,0,0,1,0,2.25l-4.966,4.966a1.585,1.585,0,0,1-1.125.467M36.582,9.31,48.141,20.872l2.718-2.717L39.3,6.594Z" transform="translate(24.492 2.073)" fill="#404040" stroke="#404040" stroke-width="1"/>
+            <path id="Trazado_37" data-name="Trazado 37" d="M49.514,20.789a1.585,1.585,0,0,1-1.124-.465L36.635,8.57a1.6,1.6,0,0,1,0-2.252l4.591-4.59a5.906,5.906,0,0,1,8.347,0l5.656,5.657a5.906,5.906,0,0,1,0,8.347l-4.59,4.593a1.593,1.593,0,0,1-1.125.465M40.006,7.446l9.508,9.508,3.466-3.466a2.72,2.72,0,0,0,0-3.848L47.325,3.978a2.788,2.788,0,0,0-3.848,0Z" transform="translate(27.058 -0.001)" fill="#404040" stroke="#404040" stroke-width="1"/>
+            <path id="Trazado_38" data-name="Trazado 38" d="M1.586,56.831a1.585,1.585,0,0,1-1.51-2.077l5.543-17.3a1.585,1.585,0,0,1,2.639-.64L20.014,48.569a1.592,1.592,0,0,1-.64,2.641l-17.3,5.543a1.559,1.559,0,0,1-.485.076m6.262-15.92L4.049,52.78,15.92,48.974Z" transform="translate(-0.001 27.188)" fill="#404040" stroke="#404040" stroke-width="1"/>
+            <path id="Trazado_39" data-name="Trazado 39" d="M8.128,65.451A1.585,1.585,0,0,1,7,62.734L59.72,10.018a1.59,1.59,0,1,1,2.247,2.25L9.253,64.984a1.585,1.585,0,0,1-1.124.467" transform="translate(4.884 7.145)" fill="#404040" stroke="#404040" stroke-width="1"/>
+          </g>
         </g>
       </g>
     </g>

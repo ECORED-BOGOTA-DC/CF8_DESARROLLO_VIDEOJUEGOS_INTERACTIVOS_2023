@@ -54,9 +54,9 @@
     .titulo-segundo.color-acento-contenido
       h2#t_2_1 2.1 Conceptos básicos de algoritmo y programa
     
-    p.mb-5(data-aos="fade-right") Para introducirse en el mundo de la programación, es necesario comprender los procedimientos y técnicas para desarrollar programas, teniendo claro de antemano que estos (programas) se conciben como la solución a un problema o situación determinada. A continuación se exponen los pasos fundamentales que conducen al desarrollo de un software:
+    p.mb-5(data-aos="fade-right") Para introducirse en el mundo de la programación, es necesario comprender los procedimientos y técnicas para desarrollar programas, teniendo claro de antemano que estos (programas) se conciben como la solución a un problema o situación determinada. A continuación se exponen los pasos fundamentales que conducen al desarrollo de un <em>software</em>:
     
-    img.mb-5.mx-auto(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 400px" data-aos="fade-left")
+    img.mb-5.mx-auto(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 400px" data-aos="fade-left" alt="Imagen que muestra los pasos fundamentales en el desarrollo de software")
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -124,7 +124,7 @@
         .row.justify-content-center.mb-5
           .col-6
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-4.svg' style="max-width: 213px" data-aos="fade-right")
+              img.mx-auto(src='@/assets/curso/temas/tema2/img-4.svg' style="max-width: 213px" data-aos="fade-right" alt="Imagen que muestra los pasos lógicos en el desarrollo de software sin operaciones matemáticas")
           
         h2.text-center Cualitativos
         p.mx-auto(style="max-width: 400px" data-aos="fade-left").text-center Cuando dentro de los pasos lógicos que lo conforman no se involucran operaciones matemáticas para obtener el resultado deseado.
@@ -133,7 +133,7 @@
         .row.justify-content-center.mb-5
           .col-6
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-5.svg' style="max-width: 213px" data-aos="fade-right")
+              img.mx-auto(src='@/assets/curso/temas/tema2/img-5.svg' style="max-width: 213px" data-aos="fade-right" alt="Imagen que muestra los pasos lógicos en el desarrollo de software con operaciones y cálculos matemáticos")
           
         h2.text-center(style="color: black") Cuantitativos
         p.mx-auto(style="max-width: 400px; color: black" data-aos="fade-left").text-center Cuando dentro de los pasos lógicos se involucra operaciones y cálculos matemáticos que son necesarios para obtener el resultado esperado.
@@ -144,7 +144,7 @@
         .row.justify-content-center.mb-5
           .col-6
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-6.svg' style="max-width: 213px" data-aos="fade-right")
+              img.mx-auto(src='@/assets/curso/temas/tema2/img-6.svg' style="max-width: 213px" data-aos="fade-right" alt="Imagen que ilustra instrucciones paso a paso representadas en forma descriptiva a través de expresiones proposicionales")
           
         h2.text-center(style="color: black") Pseudocódigo
         p.mx-auto(style="max-width: 400px; color: black" data-aos="fade-left").text-center Las instrucciones que se deben seguir paso a paso de manera lógica y ordenada se representan en forma descriptiva elaborando una serie de expresiones a manera de proposición o afirmación sobre un evento.
@@ -153,7 +153,7 @@
         .row.justify-content-center.mb-5
           .col-6
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema2/img-7.svg' style="max-width: 213px" data-aos="fade-right")
+              img.mx-auto(src='@/assets/curso/temas/tema2/img-7.svg' style="max-width: 213px" data-aos="fade-right" alt="Imagen que muestra la representación de instrucciones mediante símbolos con formas específicas según la acción deseada")
           
         h2.text-center Diagrama de flujo
         p.mx-auto(style="max-width: 400px" data-aos="fade-left").text-center Las instrucciones son representadas por medio de símbolos con formas específicas de acuerdo con la acción que se desea realizar. Este concepto se ampliará en el siguiente apartado.
@@ -218,7 +218,7 @@
         p  Pueden ser de dos tipos:
           br
           br
-          |• Sistema: son un conjunto de instrucciones que sirven para gestionar el funcionamiento del ordenador como la Unidad Central de Procesos – CPU-, los recursos de memoria como el disco duro y la memoria RAM, periféricos como impresoras y dispositivos de comunicación entre otros. 
+          |• Sistema: son un conjunto de instrucciones que sirven para gestionar el funcionamiento del ordenador como la Unidad Central de Procesos - CPU-, los recursos de memoria como el disco duro y la memoria RAM, periféricos como impresoras y dispositivos de comunicación entre otros. 
           br
           br
           |• Aplicación: conjunto de instrucciones escritas por programadores para que se ejecuten tareas específicas, por ejemplo procesar textos (Word), realizar cálculos (Excel), hacer presentaciones (PowerPoint), desarrollar videojuegos (Unity); entre muchos otros.
@@ -227,7 +227,7 @@
     ImagenInfografica.col-xl-8.mx-auto.color-acento-botones.mb-5(data-aos="fade-left")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema2/img-8.svg')
+          img(src='@/assets/curso/temas/tema2/img-8.svg' alt="secuencia de 7 pasos para la ejecución del programa en un ordenador")
 
       .tarjeta.p-3(x="11.5%" y="20%" numero="+" style="background-color: #DFF5FA")
         p.mb-0 Es la escritura ordenada y lógica de las instrucciones que se deben llevar a cabo para resolver un problema o situación determinada, representado en forma de pseudocódigo o de diagrama de flujo.
@@ -353,7 +353,7 @@
       .titulo-sexto.color-acento-contenido
         h5 Figura 2.
         span Diagrama de flujo de una tarea a realizar en el juego “La isla de los tesoros escondidos”
-      img(src="@/assets/curso/temas/tema2/img-9.svg" data-aos="fade-left")
+      img(src="@/assets/curso/temas/tema2/img-9.svg" data-aos="fade-left" alt="Pseudocódigo.  En este diagrama, se ilustra la actividad que se le ha propuesto llevar a cabo al jugador.")
 
     .cajon.color-primario.p-4.mb-5.col-lg-10.mx-auto(style="background-color: #C0EBF6")
       p(data-aos="fade-right") Este flujo de tareas a realizar es apenas una parte muy pequeña del juego y se puede continuar agregando tareas de acuerdo con las mecánicas definidas, para lo cual se sigue agrandando el diagrama que posteriormente se codificará.
@@ -495,10 +495,7 @@
 
     TabsA.color-acento-contenido.mb-5(data-aos="fade-left")
       .tarjeta.p-4(titulo="Operadores de Asignación" style="background-color: #DFF5FA")
-        p.mb-0 <b>Operadores de Asignación</b>
-          br
-          br
-          |Se utilizan para asignar un nuevo valor a una variable que ha sido declarada dentro del programa. En la izquierda de la asignación se coloca el nombre de la variable y en la derecha el valor que se asigna. Ejemplo:
+        p.mb-0 Se utilizan para asignar un nuevo valor a una variable que ha sido declarada dentro del programa. En la izquierda de la asignación se coloca el nombre de la variable y en la derecha el valor que se asigna. Ejemplo:
           br
           br
           |<span style="color: red">string</span> logo;  ⇒ se ha declarado la variable logo de tipo texto.
@@ -510,10 +507,7 @@
           br
           |total = 28;    ⇒ se  ha asignado a la variable total (izquierda)  el valor 28 (derecha).
       .tarjeta.p-4(titulo="Operadores Aritméticos" style="background-color: #DFF5FA")
-        p.mb-0 <b>Operadores Aritméticos</b>
-          br
-          br
-          |Están conformados por los símbolos que permiten hacer operaciones matemáticas con los números como suma (+), resta (-), multiplicación (*), división (/); modular (%); este último devuelve como resultado el residuo de una división. Ejemplo: 
+        p.mb-0 Están conformados por los símbolos que permiten hacer operaciones matemáticas con los números como suma (+), resta (-), multiplicación (*), división (/); modular (%); este último devuelve como resultado el residuo de una división. Ejemplo: 
           br
           br
           |<span style="color: red">Long</span> 	A; ⇒ se ha declarado la variable A de tipo entero almacenando números muy grandes, diferente a la tipo int que almacena números enteros muy pequeños.
@@ -530,7 +524,6 @@
           |C = 3 / 2;
       .tarjeta.p-4.d-flex.flex-wrap(titulo="Operadores Relacionales" style="background-color: #DFF5FA")
         .col-lg-7.order-2.order-lg-1
-          p.fw-bold Operadores Relacionales
           p Estos operadores se utilizan para realizar la comparación entre dos valores donde el resultado es verdadero si la afirmación de la expresión comparada es correcta, de lo contrario el resultado es falso. Los símbolos para comparar las variables son:
           p Ejemplo:
             br
@@ -571,10 +564,7 @@
                 td a != b
                 td a distinto que b
       .tarjeta.p-4(titulo="Operadores Lógicos" style="background-color: #DFF5FA")
-        p <b>Operadores Lógicos</b>
-          br
-          br
-          |Estos operadores se utilizan con las tablas de verdad;
+        p Estos operadores se utilizan con las tablas de verdad;
           ul
             li • El operador && (AND) es decir “y” ; solo devuelve un valor verdadero si las dos expresiones son verdad. 
             li • El operador || (OR) es decir “o”; solo devuelve un valor verdadero si una de las dos expresiones es verdadera.
@@ -594,10 +584,7 @@
           br
           |total = a < b && b > c;  ⇒ el resultado es verdadero ya que a < b es verdad y b > c también es verdadero.
       .tarjeta.p-4(titulo="Operadores de Incremento" style="background-color: #DFF5FA")
-        p <b>Operadores de Incremento</b>
-          br
-          br
-          |Estos operadores se llevan a cabo incrementando o disminuyendo el valor de la variable en una unidad. El operador que indica incremento es “++” y el que indica disminución es “—“. Ejemplo:
+        p Estos operadores se llevan a cabo incrementando o disminuyendo el valor de la variable en una unidad. El operador que indica incremento es “++” y el que indica disminución es “—“. Ejemplo:
           br
           br
           |<span style="color: red">Int</span> a = 5; ⇒ se ha declarado la variable a de tipo entero.
@@ -674,7 +661,7 @@
             |• Ingresar el segundo valor y en pantalla debe aparecer “Ingresar el segundo número:”
             br
             |• Sumar los dos valores ingresados y en pantalla debe aparecer “ la suma es:”
-          img.mx-auto(src="@/assets/curso/temas/tema2/img-16.png" style="max-width: 892px")
+          img.mx-auto(src="@/assets/curso/temas/tema2/img-16.png" style="max-width: 892px" alt="código en lenguaje C# para la representación de una secuencia")
       .row(titulo="Estructura de control condicional")
         .w-100
           p.col-lg-11.mx-auto.mb-4 Permite que se ejecuten instrucciones siempre y cuando se cumpla una condición y el formato de la sintaxis se escribe con los códigos if y else.
@@ -687,7 +674,7 @@
             |•   Si es verdadero se aplica descuento.
             br
             |•   Si es falso no se aplica el descuento.
-          img.mx-auto(src="@/assets/curso/temas/tema2/img-17.png" style="max-width: 892px")
+          img.mx-auto(src="@/assets/curso/temas/tema2/img-17.png" style="max-width: 892px" alt="código en lenguaje C# para la representación de condiciones")
       .row(titulo="Estructura repetitiva")
         .w-100
           p.col-lg-11.mx-auto.mb-4 Permite que se ejecuten un bloque de instrucciones varias veces hasta que se cumpla una condición. La sintaxis se escribe con el código while (mientras). 
@@ -697,7 +684,7 @@
             |•   Imprimir los múltiplos de 2.
             br
             |•   Hasta que llegue a 20.
-          img.mx-auto(src="@/assets/curso/temas/tema2/img-18.png" style="max-width: 892px")
+          img.mx-auto(src="@/assets/curso/temas/tema2/img-18.png" style="max-width: 892px" alt="código en lenguaje C# para la representación de los ciclos o bucles")
     p.mb-4(data-aos="fade-right") Para complementar el aprendizaje de las temáticas se recomienda la lectura de los textos Documentación de C# y Fundamentos del lenguaje C#, los cuales se encuentran en el material complementario.
     Separador 
 
@@ -796,7 +783,7 @@
       PasosB.color-acento-botones
         .row.px-3
           .col-lg-6.mb-4.mb-lg-0
-            p • En el programa Unity, dar clic en la ventana de jerarquía
+            p • En el programa Unity, dar clic en la ventana de jerarquía.
               br
               |• Clic en la opción UI (Interfaz de Usuario).
               br
@@ -806,7 +793,7 @@
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-19.jpg')
+              img(src='@/assets/curso/temas/tema2/img-19.jpg' alt="Interfaz de la acción 1")
               figcaption(style="background-color: transparent") <em>Evento</em>
         .row.px-3
           .col-lg-6.mb-4.mb-lg-0
@@ -822,7 +809,7 @@
               img.ms-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 27px")
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-20.jpg')
+              img(src='@/assets/curso/temas/tema2/img-20.jpg' alt="Interfaz de la acción 2")
               figcaption(style="background-color: transparent") Botón
         .row.px-3
           .col-lg-6.mb-4.mb-lg-0
@@ -838,7 +825,7 @@
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-21.jpg')
+              img(src='@/assets/curso/temas/tema2/img-21.jpg' alt="Interfaz de la acción 3")
               figcaption(style="background-color: transparent") <em>Script</em>
         .row.px-3
           .col-lg-6.mb-4.mb-lg-0
@@ -848,7 +835,7 @@
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-22.jpg')
+              img(src='@/assets/curso/temas/tema2/img-22.jpg' alt="Interfaz de la acción 4")
               figcaption(style="background-color: transparent") <em>Archivo script</em>
         .row.px-3
           .col-lg-6.mb-4.mb-lg-0
@@ -861,7 +848,7 @@
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-23.jpg')
+              img(src='@/assets/curso/temas/tema2/img-23.jpg' alt="Interfaz de la acción 5")
               figcaption(style="background-color: transparent") <em>Editor</em>
         .row.px-3
           .col-lg-6.mb-4.mb-lg-0
@@ -878,7 +865,7 @@
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-24.jpg')
+              img(src='@/assets/curso/temas/tema2/img-24.jpg' alt="Interfaz de la acción 6")
               figcaption(style="background-color: transparent") <em>Asociar</em>
         .row.px-3
           .col-lg-6.mb-4.mb-lg-0
@@ -888,7 +875,7 @@
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-25.jpg')
+              img(src='@/assets/curso/temas/tema2/img-25.jpg' alt="Interfaz de la acción 7")
               figcaption(style="background-color: transparent") <em>Juego</em>
     Separador 
 
@@ -913,7 +900,7 @@
             span Ampliar imagen
             img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
         .col-lg-3.order-1.order-lg-2.mb-4.mb-lg-0
-          img.mx-auto(src="@/assets/curso/temas/tema2/img-26.jpg" style="max-width: 261px")
+          img.mx-auto(src="@/assets/curso/temas/tema2/img-26.jpg" style="max-width: 261px" alt="Interfaz de Variables")
           em Referencias
 
       .row.col-xl-11.mx-auto(titulo="Funciones")
@@ -934,7 +921,7 @@
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0.ps-lg-4
-            img.w-100(src="@/assets/curso/temas/tema2/img-27.jpg")
+            img.w-100(src="@/assets/curso/temas/tema2/img-27.jpg" alt="Interfaz Funciones")
             em Funciones
         p.w-100.mb-5 Para escribir líneas de código que se refieran a funciones (métodos) se deben tener en cuenta los siguientes aspectos:
           br
@@ -958,7 +945,7 @@
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0.ps-lg-4
-            img.w-100(src="@/assets/curso/temas/tema2/img-28.jpg")
+            img.w-100(src="@/assets/curso/temas/tema2/img-28.jpg" alt="Interfaz de editor")
             em Método
 
       .row.col-xl-11.mx-auto(titulo="Clases")
@@ -1016,7 +1003,7 @@
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0.ps-lg-4
-            img.w-100(src="@/assets/curso/temas/tema2/img-28.jpg")
+            img.w-100(src="@/assets/curso/temas/tema2/img-28.jpg" alt="Interfaz")
             em Estructura
     Separador 
     .titulo-segundo.color-acento-contenido
@@ -1041,7 +1028,7 @@
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-8
             figure
-              img(src='@/assets/curso/temas/tema2/img-30.jpg')
+              img(src='@/assets/curso/temas/tema2/img-30.jpg' alt="Interfaz Acción 1")
               figcaption Canvas.
         .row
           .col-lg-8.mb-4.mb-lg-0
@@ -1069,7 +1056,7 @@
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-4
             figure
-              img(src='@/assets/curso/temas/tema2/img-31.jpg')
+              img(src='@/assets/curso/temas/tema2/img-31.jpg' alt="Interfaz Acción 2 Inspector")
               figcaption Componentes.
 
     p.mb-5(data-aos="fade-right") <b>Ejemplo</b>
@@ -1094,7 +1081,7 @@
                 img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema2/img-32.jpg')
+                img(src='@/assets/curso/temas/tema2/img-32.jpg' alt="Inspector paso 1")
                 figcaption Crear.
           .row
             .col-lg-4.mb-4.mb-lg-0
@@ -1108,7 +1095,7 @@
                 img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
             .col-md-8
               figure
-                img(src='@/assets/curso/temas/tema2/img-33.jpg')
+                img(src='@/assets/curso/temas/tema2/img-33.jpg' alt="Inspector paso 2")
                 figcaption El área de Canvas está listo para adicionar otros componentes si se desea.
 
     p.mb-5(data-aos="fade-right") Para profundizar en la ventana del Inspector del Canvas y en las temáticas de programación en Unity3D se recomienda consultar los siguientes sitios web:

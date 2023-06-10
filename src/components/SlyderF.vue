@@ -67,4 +67,9 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.slyder-f
+  transition: all .5s ease-in-out
+  position: relative
+  min-height: 500px
+</style>

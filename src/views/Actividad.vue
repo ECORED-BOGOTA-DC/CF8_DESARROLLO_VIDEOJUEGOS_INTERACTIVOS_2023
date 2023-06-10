@@ -10,8 +10,8 @@
             img(src="@/assets/template/seleccion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Responsabilidades Scrum según los roles
-        p.mb-4 Identificar las actividades que ejecuta cada rol en un equipo de trabajo SCRUM.
+          h2 Responsabilidades <em>Scrum</em> según los roles
+        p.mb-4 Identificar las actividades que ejecuta cada rol en un equipo de trabajo <em>SCRUM</em>.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

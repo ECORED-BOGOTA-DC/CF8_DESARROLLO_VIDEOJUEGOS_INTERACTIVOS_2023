@@ -94,7 +94,7 @@ export default {
   overflow: hidden
 .horizontal-scroll
   display: flex
-  transition: transform 0.5s ease-in-out
+  transition: all 0.5s ease-in-out
   align-items: center
   flex-wrap: nowrap
   &:not(.row)

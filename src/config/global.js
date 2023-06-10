@@ -36,7 +36,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Metodología SCRUM',
+            titulo: 'Metodología <em>SCRUM</em>',
             hash: 't_1_2',
           },
           {
@@ -124,6 +124,11 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CFA_8_228108.pdf',
+      },
+      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -151,7 +156,7 @@ export default {
       link: 'http://agilemanifesto.org/',
     },
     {
-      tema: 'Metodología SCRUM',
+      tema: 'Metodología <em>SCRUM</em>',
       referencia: 'Trigas, M. (s.f). <em>Metodología Scrum. TFC</em>',
       tipo: 'PDF',
       link:
@@ -240,14 +245,14 @@ export default {
         'Es un conjunto de instrucciones escritas en un lenguaje de programación siguiendo reglas de sintaxis para que se puedan traducir a lenguaje de máquina (gamedevtraum, 2021).',
     },
     {
-      termino: 'Scrum',
+      termino: '<em>Scrum</em>',
       significado:
         'Metodología de trabajo ágil que está basada en ciclos con periodos de tiempo cortos que pueden ser semanas o meses para entregar una parte del proyecto (Da silva, 2021).',
     },
     {
       termino: 'SUM',
       significado:
-        'Metodología utilizada para llevar a cabo el ciclo de vida de un software desarrollado secuencialmente en fases iterativas e incrementales que se ejecutan en corto y por equipos pequeños (Acerenza, 2009).',
+        'Metodología utilizada para llevar a cabo el ciclo de vida de un <em>software</em> desarrollado secuencialmente en fases iterativas e incrementales que se ejecutan en corto y por equipos pequeños (Acerenza, 2009).',
     },
     {
       termino: 'Variable',
@@ -261,12 +266,6 @@ export default {
         'MinTIC, MinEducación. (s.f.). <em>Lección 1: ¿Qué es un algoritmo?</em>',
       link:
         'http://contenidos.sucerman.com/nivel1/programacion/unidad1/leccion1.html',
-    },
-    {
-      referencia:
-        'MinTIC, MinEducación. (s.f.). <em>Lección 2: Los diagramas de flujo.</em>',
-      link:
-        'https://aprende.colombiaaprende.edu.co/sites/default/files/naspublic/curriculos_ex/n1g10_fproy/nivel1/programacion/unidad1/leccion1.html',
     },
     {
       referencia:
@@ -297,91 +296,115 @@ export default {
         'https://lenguajesdeprogramacion.net/diccionario/que-es-una-variable-en-programacion/',
     },
   ],
-  creditos: {
-    liderEquipo: [
-      {
-        nombre: 'Maria Camila Garcia Santamaria',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
-      },
-    ],
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Responsable del equipo de diseño instruccional',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: '',
-        cargo: '',
-        centro: '',
-      },
-      {
-        nombre: '',
-        cargo: '',
-        centro: '',
-      },
-      {
-        nombre: '',
-        cargo: '',
-        centro: '',
-      },
-      {
-        nombre: '',
-        cargo: '',
-        centro: '',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Responsable del equipo de gestión de repositorio',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-    ],
+  creditos: [
+    {
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Claudia Patricia Aristizabal',
+          cargo: 'Líder del equipo',
+          centro: 'Dirección General',
+        },
+        {
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
+    },
+    {
+      titulo: 'CONTENIDO INSTRUCCIONAL',
+      autores: [
+        {
+          nombre: 'Olga Lucía Mogollón Carvajal',
+          cargo: 'Experto Temático',
+          centro:
+            'Regional Distrito Capital - Centro de Formación de Talento Humano en Salud',
+        },
+        {
+          nombre: 'Luz Aida Quintero Velásquez',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial.',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Asesor Metodológico',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo Desarrollo Curricular',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura.',
+        },
+      ],
+    },
+    {
+      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Yuly Andrea Rey Quiñones',
+          cargo: 'Diseñador web',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Jhon Edinson Castañeda Oviedo',
+          cargo: 'Desarrollador Fullstack',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animador y Producción audiovisual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Animador y Producción audiovisual',
+          centro:
+            'egional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
+        },
+        {
+          nombre: 'Gloria Amparo López Escudero',
+          cargo: 'Adecuadora Instruccional',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Metodólogo para la formación virtual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
+    },
+    {
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      autores: [
+        {
+          nombre: 'Castaño Pérez Leyson Fabian',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Validación de contenidos accesibles',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
+    },
+  ],
+  creditosAdicionales: {
+    imagenes:
+      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+    creativeCommons:
+      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
   // creditosInicio: [
   //   {
