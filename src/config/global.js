@@ -386,14 +386,20 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Leyson Fabian Castaño Pérez',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Validación de contenidos accesibles',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Carolina Coca Salazar',
-          cargo: 'Validación de contenidos accesibles',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos digitales',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo: 'Validación y vinculación en plataforma LMS',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
