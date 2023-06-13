@@ -386,7 +386,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Castaño Pérez Leyson Fabian',
+          nombre: 'Leyson Fabian Castaño Pérez',
           cargo: 'Validación y vinculación en plataforma LMS',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',

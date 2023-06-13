@@ -15,7 +15,7 @@
         p.mb-0(data-aos="fade-left") El programa Unity es un motor de tipo gráfico; esto quiere decir que contiene muchas funcionalidades que resuelven aspectos en la creación de un videojuego sin que se necesite programar; por ejemplo poner color a un objeto seleccionado, iluminar un plano o cambiar el nivel de una imagen entre otros.
           br
           br
-          |Para adicionar algún tipo de comportamiento, componente o atributo que no se pueda hacer desde el menú del programa, lo que se debe hacer es escribir líneas de código o scripts para que le proporcionen estas características. Esto es lo que se llama programación orientada a objetos.
+          |Para adicionar algún tipo de comportamiento, componente o atributo que no se pueda hacer desde el menú del programa, lo que se debe hacer es escribir líneas de código o <em>scripts</em> para que le proporcionen estas características. Esto es lo que se llama programación orientada a objetos.
 
     p.mb-5(data-aos="fade-right") <b>La Programación Orientada a Objetos -POO-</b> posee las siguientes características:
 
@@ -32,7 +32,7 @@
       .tarjeta.p-4(titulo="Encapsulamiento" style="background-color: #DFF5FA")
         p Es el conjunto de características esenciales que han sido separadas de las no esenciales. En el ejemplo de la puerta en el encapsulamiento se encuentra el marco, las bisagras y la cerradura ya que son los atributos principales o generales que hacen que el objeto sea definido como puerta, los demás atributos como el color, el material y el tamaño, hacen parte lo que se consideran características, pues estos son atributos que pueden poseer innumerables tipos de objetos.
 
-    p.mb-5(data-aos="fade-right") El lenguaje de programación que se utiliza en Unity para generar las líneas de código o Scripts es C#; el cual se compone de variables, funciones y clases que se explicarán más adelante. Para escribir el código, Unity tiene un editor de texto asociado llamado Visual Studio, aunque el programador puede utilizar simplemente el bloc de notas. El editor (Visual Studio) le ayuda a determinar los errores de sintaxis que se puedan cometer en el desarrollo, por esa razón es recomendable hacer uso de este.   
+    p.mb-5(data-aos="fade-right") El lenguaje de programación que se utiliza en Unity para generar las líneas de código o <em>Scripts</em> es C#; el cual se compone de variables, funciones y clases que se explicarán más adelante. Para escribir el código, Unity tiene un editor de texto asociado llamado Visual Studio, aunque el programador puede utilizar simplemente el bloc de notas. El editor (Visual Studio) le ayuda a determinar los errores de sintaxis que se puedan cometer en el desarrollo, por esa razón es recomendable hacer uso de este.   
       br
       br
       |Antes de comenzar a estructurar un programa en Unity, ver la explicación de algunos conceptos básicos en el siguiente enlace:
@@ -249,8 +249,8 @@
     p.mb-5(data-aos="fade-right") Es una herramienta de tipo gráfica que representa el diseño de un algoritmo y está compuesta por símbolos que indican las acciones a realizar para obtener un resultado que resuelve un problema, situación o tarea. Los símbolos están unidos por flechas las cuales señalan la secuencia lógica de ejecución de dichas acciones. Todo algoritmo tiene un comienzo y un final representados por sus símbolos respectivos. A continuación se explica cada uno de ellos, ver tabla 2:
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 2.
-      span Símbolos utilizados en los diagramas de flujo.
+      h5 Tabla 2
+      span.d-block Símbolos utilizados en los diagramas de flujo
     
     .tabla-b.color-acento-contenido.mb-5.col-xl-10.mx-auto(data-aos="fade-right")
       .tabla-b__header.d-flex
@@ -351,8 +351,8 @@
 
     .col-xl-6.col-lg-10.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
-        h5 Figura 2.
-        span Diagrama de flujo de una tarea a realizar en el juego “La isla de los tesoros escondidos”
+        h5 Figura 2
+        span.d-block Diagrama de flujo de una tarea a realizar en el juego “La isla de los tesoros escondidos”
       img(src="@/assets/curso/temas/tema2/img-9.svg" data-aos="fade-left" alt="Pseudocódigo.  En este diagrama, se ilustra la actividad que se le ha propuesto llevar a cabo al jugador.")
 
     .cajon.color-primario.p-4.mb-5.col-lg-10.mx-auto(style="background-color: #C0EBF6")
@@ -813,7 +813,7 @@
               figcaption(style="background-color: transparent") Botón
         .row.px-3
           .col-lg-6.mb-4.mb-lg-0
-            p Ya creado el botón debe asociarse la acción que va a realizar, que en este caso es salir y para ello se crea un script o líneas de código:
+            p Ya creado el botón debe asociarse la acción que va a realizar, que en este caso es salir y para ello se crea un <em>script</em> o líneas de código:
               br
               |• Clic en menú Assets.
               br
@@ -880,9 +880,9 @@
     Separador 
 
     .titulo-segundo.color-acento-contenido
-      h2#t_2_5 2.5 Estructura básica de un script de Unity3D
+      h2#t_2_5 2.5 Estructura básica de un <em>script</em> de Unity3D
     
-    p.mb-5(data-aos="fade-right") El lenguaje de programación que se utiliza en Unity es el lenguaje C# y a las líneas de código que lo configuran se les llama Scripts, las cuales consisten en una secuencia de instrucciones que se escriben en un editor de texto que es adjuntado en Unity al hacer su instalación en el PC; este editor de escritura es el Visual Studio. 
+    p.mb-5(data-aos="fade-right") El lenguaje de programación que se utiliza en Unity es el lenguaje C# y a las líneas de código que lo configuran se les llama <em>Scripts</em>, las cuales consisten en una secuencia de instrucciones que se escriben en un editor de texto que es adjuntado en Unity al hacer su instalación en el PC; este editor de escritura es el Visual Studio. 
       br
       br
       |El objeto de escribir líneas de código en Unity es para asignarle comportamientos específicos a los componentes del juego (<em>GameObjects</em>), crear eventos y desarrollar funciones que controlen acciones determinadas.
@@ -894,7 +894,7 @@
       .row.col-xl-11.mx-auto(titulo="Variables")
         .col-lg.order-2.order-lg-1
           p Como se mencionó antes son espacios reservados en la memoria para almacenar valores de diferentes tipos, ya se vio en los anteriores apartados su tipología (numéricos, lógicos, alfanuméricos), pero en Unity también hay tipos de datos de referencia que se aplican a los objetos como Transform y Light que se visualizan en la ventana del Inspector; donde la primera trata con aspectos de posición, rotación y tamaño del objeto y la segunda con efectos de iluminación.
-          p Las variables deben ser declaradas al comienzo del bloque de las líneas de código definiendo si van a ser públicas o privadas. Una <b>variable pública</b> es aquella que puede ser utilizada por otros scripts y cambiar su valor porque es accesible para ellos ya que aparece en la ventana del Inspector y una <b>variable privada</b> es aquella que solo puede ser utilizada dentro de una misma clase (ya se verá este término a continuación) y dentro de un mismo método o función y no puede ser visualizada en el Inspector porque sus valores no son manipulables por otros scripts.
+          p Las variables deben ser declaradas al comienzo del bloque de las líneas de código definiendo si van a ser públicas o privadas. Una <b>variable pública</b> es aquella que puede ser utilizada por otros <em>scripts</em> y cambiar su valor porque es accesible para ellos ya que aparece en la ventana del Inspector y una <b>variable privada</b> es aquella que solo puede ser utilizada dentro de una misma clase (ya se verá este término a continuación) y dentro de un mismo método o función y no puede ser visualizada en el Inspector porque sus valores no son manipulables por otros <em>scripts</em>.
           p Cuando se codifica una variable se debe tener en cuenta aspectos de nomenclatura como que el nombre no debe empezar por un número y  no debe tener espacios.
           a.col.boton.color-acento-botones(@click="imgSelect = 8; modal2 = true;")
             span Ampliar imagen
@@ -937,7 +937,7 @@
           |<b>Ejemplo:</b> En el editor de texto Visual Studio se ha creado un método con identificador Multiplica, el cual contiene dos parámetros de tipo entero (a y b) cuya funcionalidad es multiplicar dos números. El resultado que debe retornar el método ( c ) es de tipo entero.
         .d-flex.flex-wrap.mb-5
           .col-lg.order-2.order-lg-1
-            p El método Multiplica es de tipo público es decir puede ser utilizado en otros scripts y el nombre del archivo es TestClick. cs y el programa ha llamado la clase MonoBehaviour que contiene las funciones de inicialización por defecto:
+            p El método Multiplica es de tipo público es decir puede ser utilizado en otros <em>scripts</em> y el nombre del archivo es TestClick. cs y el programa ha llamado la clase MonoBehaviour que contiene las funciones de inicialización por defecto:
               br
               br
               |public class TestClick.cs : MonoBehaviour {
@@ -958,7 +958,7 @@
           |Las clases cumplen con las características de abstraccionismo, encapsulamiento, heredad y polimorfismo propias de la Programación Orientada a Objetos – POO-. Algunas de las clases más importantes que se encuentran en el motor de Unity son:
         .d-flex.flex-wrap.mb-5
           .col-lg.order-2.order-lg-1
-            p Cuando se están escribiendo líneas de código y se crean  varias clases para los objetos las cuales van agrupar diferentes atributos, entonces se utiliza lo que se llama “Espacios de nombres”; para organizar clases dentro de un mismo entorno, agrupándolas para darle una mejor estructura al script y evitar confusiones cuando el motor de Unity haga la compilación de las instrucciones para ser ejecutadas.
+            p Cuando se están escribiendo líneas de código y se crean  varias clases para los objetos las cuales van agrupar diferentes atributos, entonces se utiliza lo que se llama “Espacios de nombres”; para organizar clases dentro de un mismo entorno, agrupándolas para darle una mejor estructura al <em>scripts</em> y evitar confusiones cuando el motor de Unity haga la compilación de las instrucciones para ser ejecutadas.
           .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0.ps-lg-4
             tabla.tabla-edit-2
               thead(style="border: 1px solid black")
@@ -981,14 +981,14 @@
         
         .d-flex.flex-wrap.mb-5
           .col-lg.order-2.order-lg-1
-            p.mb-4 <b>Ejemplo:</b> crear un Script e identificar los espacios de nombres. 
+            p.mb-4 <b>Ejemplo:</b> crear un <em>Script</em> e identificar los espacios de nombres. 
               br
               br
-              |Para crear el Script hay dos formas: 
+              |Para crear el <em>Script</em> hay dos formas: 
               br
-              |Assets > Create > C# Script 
+              |Assets > Create > C# <em>Script</em> 
               br
-              |Project > Create > C# Script
+              |Project > Create > C# <em>Script</em>
               br
               br
               |Se ha creado entonces un archivo llamado <em>NewBehaviourScript.cs</em> que es el nombre por defecto, el cual puede ser cambiado por el que el usuario necesite para bridentificar las acciones que realiza.
@@ -998,7 +998,7 @@
               br
               |• <b>using System.Collections.Generic:</b> dentro de la clase Collections hay elementos que son de un solo tipo. Esto quiere decir que cuando se recupera un elemento de esta clase no hay que definirle el tipo.
               br
-              |• <b>using UnityEngine:</b> permite que el Script herede de la clase MonoBehavour todas las funciones como <em>awake, start, update, Transform, Light,</em> entre otras.
+              |• <b>using UnityEngine:</b> permite que el <em>Script</em> herede de la clase MonoBehavour todas las funciones como <em>awake, start, update, Transform, Light,</em> entre otras.
             a.col.boton.color-acento-botones(@click="imgSelect = 10; modal2 = true;")
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
@@ -1050,7 +1050,7 @@
               |<em><b>3 Canvas Scaler (Script):</b></em> tiene que ver con la densidad del pixel de los elementos que se coloquen dentro de la plantilla, esto hace que se vea con mayor o menor resolución.
               br
               br
-              |<em><b>4 Graphic Raycaster (Script):</b></em> controla los elementos gráficos teniendo en cuenta los que se colocan en el fondo o delante. 
+              |<em><b>4 Graphic Raycaster (<em>Script</em>):</b></em> controla los elementos gráficos teniendo en cuenta los que se colocan en el fondo o delante. 
             a.boton.color-acento-botones(@click="imgSelect = 12; modal2 = true;")
               span Ampliar imagen
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
@@ -1127,7 +1127,7 @@
               a.boton.color-acento-botones(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=6425" target="_blank")
                 span.pe-2 Enlace web
                 img(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px")
-    .tarjeta.p-3.col-lg-8.mx-auto(style="background-color: #C0EBF6" data-aos="fade-left")
+    .tarjeta.p-3.col-lg-8.mx-auto.mb-0(style="background-color: #C0EBF6" data-aos="fade-left")
       .row.justify-content-around.align-items-center
         img(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 98px")
         .col

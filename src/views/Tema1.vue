@@ -47,8 +47,8 @@
           |Existen aspectos muy marcados de las metodologías ágiles respecto a las metodologías tradicionales que dejan entrever sus características, ver tabla 1:
     
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 1.
-      span Metodologías ágiles vs Metodologías tradicionales
+      h5 Tabla 1
+      span.d-block Metodologías ágiles vs Metodologías tradicionales
     
     .tabla-b.color-acento-contenido.mb-5(data-aos="fade-right")
       .tabla-b__header.d-flex.justify-content-around
@@ -184,8 +184,8 @@
 
     .col-xl-6.col-lg-10.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
-        h5 Figura 1.
-        span Ciclo <em>game</em> - Proceso realizado en cada iteración del producto
+        h5 Figura 1
+        span.d-block Ciclo <em>game</em> - Proceso realizado en cada iteración del producto
       img(src="@/assets/curso/temas/tema1/img-7.svg" data-aos="fade-left" alt="Muestra el proceso del cliclo game iniciando con :Planificación  de la iteración, pasando por Ejecución de las tareas de la iteración, siguiendo Sincronización diaria y por último Revisión del producto, Retrospectiva")
     
     p.mb-5 Después de <b>planificar la iteración</b> que algunos autores como Sánchez (2018) llaman Sprint, se comienza a <b>ejecutar cada tarea de la iteración:</b>
