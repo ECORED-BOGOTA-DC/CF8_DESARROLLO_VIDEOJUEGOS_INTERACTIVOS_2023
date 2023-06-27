@@ -865,7 +865,7 @@
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-24.jpg' alt="Interfaz de la acción 6")
+              img(src='@/assets/curso/temas/tema2/img-24.png' alt="Interfaz de la acción 6")
               figcaption(style="background-color: transparent") <em>Asociar</em>
         .row.px-3
           .col-lg-6.mb-4.mb-lg-0
@@ -875,7 +875,7 @@
               img.ms-2(src="@/assets/curso/temas/decorador-4.svg" style="max-width: 15px")
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-25.jpg' alt="Interfaz de la acción 7")
+              img(src='@/assets/curso/temas/tema2/img-25.png' alt="Interfaz de la acción 7")
               figcaption(style="background-color: transparent") <em>Juego</em>
     Separador 
 
@@ -1106,8 +1106,8 @@
         img(src='@/assets/curso/temas/tema2/img-21.jpg' v-if="imgSelect == 3")
         img(src='@/assets/curso/temas/tema2/img-22.jpg' v-if="imgSelect == 4")
         img(src='@/assets/curso/temas/tema2/img-23.jpg' v-if="imgSelect == 5")
-        img(src='@/assets/curso/temas/tema2/img-24.jpg' v-if="imgSelect == 6")
-        img(src='@/assets/curso/temas/tema2/img-25.jpg' v-if="imgSelect == 7")
+        img(src='@/assets/curso/temas/tema2/img-24.png' v-if="imgSelect == 6")
+        img(src='@/assets/curso/temas/tema2/img-25.png' v-if="imgSelect == 7")
         img.mx-auto(src='@/assets/curso/temas/tema2/img-26.jpg' style="max-width: 500px" v-if="imgSelect == 8")
         img(src='@/assets/curso/temas/tema2/img-27.jpg' v-if="imgSelect == 9")
         img(src='@/assets/curso/temas/tema2/img-28.jpg' v-if="imgSelect == 10")
