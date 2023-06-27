@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="113" viewBox="0 0 190 113">
+  <g id="Grupo_895075" data-name="Grupo 895075" transform="translate(-1125 -12258)">
+    <rect id="Rectángulo_343267" data-name="Rectángulo 343267" width="190" height="113" transform="translate(1125 12258)" fill="#fff"/>
+    <text id="bool_A_false_int_B_80" data-name="bool A = false
+int    B = 80" transform="translate(1168 12292)" fill="red" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="17">bool</tspan><tspan y="17" xml:space="preserve" fill="#12263f"> A = </tspan><tspan y="17">false</tspan><tspan x="0" y="41">int</tspan><tspan y="41" xml:space="preserve" fill="#12263f">    B = 80</tspan></text>
+  </g>
+</svg>

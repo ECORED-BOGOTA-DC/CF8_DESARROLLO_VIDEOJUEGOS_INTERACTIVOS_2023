@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="295" height="191" viewBox="0 0 295 191">
+  <g id="Grupo_895076" data-name="Grupo 895076" transform="translate(-1000 -14447.949)">
+    <rect id="Rectángulo_343280" data-name="Rectángulo 343280" width="295" height="191" transform="translate(1000 14447.949)" fill="#fff"/>
+    <text id="private_int_local_int_A_int_B_Int_total_A_B_return_total_" data-name="private int local (int A, int B)
+{
+               Int total = A + B;
+               return total ; 
+}" transform="translate(1041 14484.949)" fill="red" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="17">private int</tspan><tspan y="17" xml:space="preserve" fill="#12263f"> local (</tspan><tspan y="17">int</tspan><tspan y="17" xml:space="preserve" fill="#12263f"> A, </tspan><tspan y="17">int</tspan><tspan y="17" xml:space="preserve" fill="#12263f"> B)</tspan><tspan fill="#12263f"><tspan x="0" y="41">{</tspan></tspan><tspan x="0" y="65" xml:space="preserve">               Int</tspan><tspan y="65" xml:space="preserve" fill="#12263f"> total = A + B;</tspan><tspan x="0" y="89" xml:space="preserve">               return total</tspan><tspan y="89" xml:space="preserve" fill="#12263f"> ; </tspan><tspan fill="#12263f"><tspan x="0" y="113">}</tspan></tspan></text>
+  </g>
+</svg>
